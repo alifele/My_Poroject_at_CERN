@@ -1,0 +1,13 @@
+Local coord. system 1: x, y, z, theta, phi, psi
+Local coord. system 2: x, y, z, 
+		       theta, phi, psi
+
+Solenoid Params: X1, Y1, X2, Y2
+                 X3, Y3, X4, Y4
+                 CU1, CU2, CU3, CU4
+
+current dens, symmetry about global z axis ,name
+
+symmetry reflections: no no no ???
+
+tolerance
