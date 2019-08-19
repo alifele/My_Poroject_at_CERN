@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=GND Pin=AISENSE-2
+Removed Pin From Net: NetName=GND Pin=AISENSE-2
+Removed Pin From Net: NetName=GND Pin=AISENSE-2
+Removed Pin From Net: NetName=GND Pin=AISENSE-2
+Removed Pin From Net: NetName=GND Pin=DO0-2
+Removed Pin From Net: NetName=GND Pin=DO0-2
+Removed Pin From Net: NetName=GND Pin=DO0-2
+Removed Pin From Net: NetName=GND Pin=DO0-2
+Removed Member From Class: ClassName=Sheet1 Member=AISENSE
+Removed Member From Class: ClassName=Sheet1 Member=DO0
+Change Component Designator: OldDesignator=A0 NewDesignator=DIO0
+Change Component Designator: OldDesignator=A1 NewDesignator=DIO1
+Change Component Designator: OldDesignator=A2 NewDesignator=DIO2
+Change Component Designator: OldDesignator=A3 NewDesignator=DIO3
+Change Component Designator: OldDesignator=A4 NewDesignator=DIO4
+Change Component Designator: OldDesignator=A5 NewDesignator=DIO5
+Change Component Designator: OldDesignator=A6 NewDesignator=DIO6
+Change Component Designator: OldDesignator=A7 NewDesignator=DIO7
+Change Component Designator: OldDesignator=A8 NewDesignator=DIO8
+Change Component Designator: OldDesignator=A9 NewDesignator=DIO9
+Change Component Designator: OldDesignator=A10 NewDesignator=DIO10
+Change Component Designator: OldDesignator=A11 NewDesignator=DIO11
+Change Component Designator: OldDesignator=A12 NewDesignator=DIO12
+Change Component Designator: OldDesignator=A13 NewDesignator=DIO13
+Change Component Designator: OldDesignator=A14 NewDesignator=DIO14
+Change Component Designator: OldDesignator=A15 NewDesignator=DIO15
+Change Component Designator: OldDesignator=A16 NewDesignator=DIO16
+Change Component Designator: OldDesignator=A17 NewDesignator=DIO17
+Change Component Designator: OldDesignator=A18 NewDesignator=DIO18
+Change Component Designator: OldDesignator=A19 NewDesignator=DIO19
+Change Component Designator: OldDesignator=A20 NewDesignator=DIO20
+Change Component Designator: OldDesignator=A21 NewDesignator=DIO21
+Change Component Designator: OldDesignator=A22 NewDesignator=DIO22
+Change Component Designator: OldDesignator=A23 NewDesignator=DIO23
+Change Component Designator: OldDesignator=A24 NewDesignator=DIO24
+Change Component Designator: OldDesignator=A25 NewDesignator=DIO25
+Change Component Designator: OldDesignator=A26 NewDesignator=DIO26
+Change Component Designator: OldDesignator=A27 NewDesignator=DIO27
+Change Component Designator: OldDesignator=A28 NewDesignator=DIO28
+Change Component Designator: OldDesignator=A29 NewDesignator=DIO29
+Change Component Designator: OldDesignator=A30 NewDesignator=DIO30
+Change Component Designator: OldDesignator=A31 NewDesignator=DIO31
+Added Pin To Net: NetName=GND Pin=J41-9
+Added Pin To Net: NetName=GND Pin=J41-28
+Change Net Name : Old Net Name=A0 New Net Name=DIO0
+Change Net Name : Old Net Name=A1 New Net Name=DIO1
+Change Net Name : Old Net Name=A2 New Net Name=DIO2
+Change Net Name : Old Net Name=A3 New Net Name=DIO3
+Change Net Name : Old Net Name=A4 New Net Name=DIO4
+Change Net Name : Old Net Name=A5 New Net Name=DIO5
+Change Net Name : Old Net Name=A6 New Net Name=DIO6
+Change Net Name : Old Net Name=A7 New Net Name=DIO7
+Change Net Name : Old Net Name=A24 New Net Name=DIO24
+Change Net Name : Old Net Name=A25 New Net Name=DIO25
+Change Net Name : Old Net Name=A26 New Net Name=DIO26
+Change Net Name : Old Net Name=A27 New Net Name=DIO27
+Change Net Name : Old Net Name=A28 New Net Name=DIO28
+Change Net Name : Old Net Name=A29 New Net Name=DIO29
+Change Net Name : Old Net Name=A30 New Net Name=DIO30
+Change Net Name : Old Net Name=A31 New Net Name=DIO31
+Added Pin To Net: NetName=DIO8 Pin=DIO8-1
+Added Pin To Net: NetName=DIO8 Pin=J41-11
+Added Net: Name=DIO8
+Added Pin To Net: NetName=DIO9 Pin=DIO9-1
+Added Pin To Net: NetName=DIO9 Pin=J41-12
+Added Net: Name=DIO9
+Added Pin To Net: NetName=DIO10 Pin=DIO10-1
+Added Pin To Net: NetName=DIO10 Pin=J41-13
+Added Net: Name=DIO10
+Added Pin To Net: NetName=DIO11 Pin=DIO11-1
+Added Pin To Net: NetName=DIO11 Pin=J41-14
+Added Net: Name=DIO11
+Added Pin To Net: NetName=DIO12 Pin=DIO12-1
+Added Pin To Net: NetName=DIO12 Pin=J41-15
+Added Net: Name=DIO12
+Added Pin To Net: NetName=DIO13 Pin=DIO13-1
+Added Pin To Net: NetName=DIO13 Pin=J41-16
+Added Net: Name=DIO13
+Added Pin To Net: NetName=DIO14 Pin=DIO14-1
+Added Pin To Net: NetName=DIO14 Pin=J41-17
+Added Net: Name=DIO14
+Added Pin To Net: NetName=DIO15 Pin=DIO15-1
+Added Pin To Net: NetName=DIO15 Pin=J41-18
+Added Net: Name=DIO15
+Added Pin To Net: NetName=DIO16 Pin=DIO16-1
+Added Pin To Net: NetName=DIO16 Pin=J41-20
+Added Net: Name=DIO16
+Added Pin To Net: NetName=DIO17 Pin=DIO17-1
+Added Pin To Net: NetName=DIO17 Pin=J41-21
+Added Net: Name=DIO17
+Added Pin To Net: NetName=DIO18 Pin=DIO18-1
+Added Pin To Net: NetName=DIO18 Pin=J41-22
+Added Net: Name=DIO18
+Added Pin To Net: NetName=DIO19 Pin=DIO19-1
+Added Pin To Net: NetName=DIO19 Pin=J41-23
+Added Net: Name=DIO19
+Added Pin To Net: NetName=DIO20 Pin=DIO20-1
+Added Pin To Net: NetName=DIO20 Pin=J41-24
+Added Net: Name=DIO20
+Added Pin To Net: NetName=DIO21 Pin=DIO21-1
+Added Pin To Net: NetName=DIO21 Pin=J41-25
+Added Net: Name=DIO21
+Added Pin To Net: NetName=DIO22 Pin=DIO22-1
+Added Pin To Net: NetName=DIO22 Pin=J41-26
+Added Net: Name=DIO22
+Added Pin To Net: NetName=DIO23 Pin=DIO23-1
+Added Pin To Net: NetName=DIO23 Pin=J41-27
+Added Net: Name=DIO23
+Added Pin To Net: NetName=RSVD Pin=J41-19
+Added Pin To Net: NetName=RSVD Pin=PFIO-1
+Added Net: Name=RSVD
+Added Room: Name=Sheet1

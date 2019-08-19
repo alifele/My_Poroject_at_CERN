@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: G:\Experiments\ALPHA\Personal folders\Ali Fele Paranj\Altium\final designs with front panel\design\AO NI 9264\PCB1.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

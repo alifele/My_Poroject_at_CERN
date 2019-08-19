@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=PFIO NewDesignator=RSVD
+Added Member To Class: ClassName=Sheet1 Member=Component DIO7 LEMO 00
+Added Member To Class: ClassName=Sheet1 Member=Component DIO21 LEMO 00
+Added Room: Name=Sheet1
