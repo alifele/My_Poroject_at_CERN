@@ -32,6 +32,8 @@ The significant result of this change was an decrease in the depth of valley at 
 \subsubsection{Real Beamline}
 this simulatio was very computationaly costly, which took about 23 hours to simulate just five particles. The reults was as we expected. There was no decrease in std(z) of particles. So this simulation was colser to the real setup than perivious ones. So I tryed to simulate the more particles in this setup.
 
+\subsubsection{Buncher Simulation}
+
 
 
 \subsection{LabVIEW Interface}
@@ -46,10 +48,20 @@ So having a safe and graphical interface for this purpose has a key rule. I this
 
 
 \subsection{Electronics}
-As mentioned bofore, handling advanced experimnets requires advanced electronic setups. As the  time passes the electronics and computers get more powerful. So on of the important 'Must do's for every experiment is holding equipments update according to the last technologies. ALPHA was born at 2008 and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal and data aquistion purposes. In these computers we use DAQ madules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. 
+As mentioned bofore, handling advanced experimnets requires advanced electronic setups. As the  time passes the electronics and computers get more powerful. So on of the important 'Must do's for every experiment is holding equipments update according to the last technologies. ALPHA was born at 2008 and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal and data aquistion purposes. In these computers we use DAQ madules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. for this purpose we need to design a printed circuit board (PCB), that maps every pin on D-subminature connector to individual lemo connectors.
+\subsubsection{PCB and Front Panel Design}
+In this project I designed the PCB using "Altium design' software. this PCBs connect the D-subminator connector to individual Lemo Connectors. We had four different types of madules, so I need to design four differnet PCBs.
+The madules was NI9264, NI9401, NI9403, NI9205. these madules are digital and analog madules that are connected to compact rio system to control the experiment aparues. For example one can control valvs, vacuum pumps, mass flow rate controlers, etc. These are done using LabVIEW interface which I worked with and designed an interface in other project that  I will descripe later. you can see the PCB designed for NI9205 in figure ??. To see full documents of files you can visit my git hub page.[link]
+
+As I said before, for complicated experiments there is a control platform that contols the parameters of experiment. For example figure ??? is the control platform of APLHA experiment.
+These platforms are where that the Compact Rio will sit at. Each compact rio will be held at chassis and these chassises will be held horizontaly on top of each other by [sotoon]. so to keep every thing not messy, we need to design fron panels that can mount on chassies, and srew the PCBs to them. I did so for each of the modules and you can see the front panel of the NI9205 module in figure ???. You can find full documents at my github repository for cern as well.
 
 
 \subsection{Full Simulation}
+‌Simple simulations are very useful when you want to evaluate your stimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve you simulated model and add more details to it. In the simple simualtion of buncher we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beam line. To make it possible, we needed to make a CAD model of magents in full setup. The data of magnets was at file .cond which  
+
+
+\subsection{Rasberry Pi}
 
 
 
