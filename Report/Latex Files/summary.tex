@@ -1,29 +1,78 @@
 \documentclass{article}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\title{CERN Summer Program Report}
+
+\author{Ali Fele Paranj}
 \begin{document}
+\maketitle
 
-\section{Simulating the Buncher}
-\subsection{COMSOL Simulation}
-\subsubsection{Setup}
-\subsubsection{Results}
-\subsection{MATLAB}
+\section{How ALPHA Works}
+ALPHA is an international collaboration based at CERN, and which is working with trapped antihydrogen atoms, the antimatter counterpart of the simplest atom, hydrogen. By precise comparisons of hydrogen and antihydrogen, the experiment hopes to study fundamental symmetries between matter and antimatter. 
 
+ALPHA has some important components that makes the research on antimatters possible. These are: the Penning trap, which holds the positrons and antiprotons before we use them to make antihydrogen, the Atom trap, which traps and holds the antihydrogen atoms, and the Annihilation vertex imaging detector, which detects the antihydrogen atoms when we allow them to annihilate and can find the piont at which they annihilated.
 
-\section{Electronics}
-\subsection{PCB}
-\subsection{Fronpanels}
-
-
-\section{Simuating the Whole Setup}
-
-\subsection{Python}
-\subsection{Inventor}
-\subsection{COMSOL}
-\subsection{LXplus}
+\section{My Projects}
+\subsection{Simulation with COMSOL}
+When the particles are released from positron source, they trap at the potential valley of the accumulator. Then they release from thr trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particles beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease.
 
 
-\section{LABVIEW}
+First we decided to see this expansion on simulation. So I set up a simulation with COMSOL and we could see that the standard deviation of particles increases as they travel toward penning trap. because of the long beam line, and the limitation of computational resources I did the simulation in three steps: Short beam line, Long beam line, Real beam line.
+\subsubsection{Short Beamline}
+In this simulation I set the lenght of beam line to be about 3 meters which only covers the accumulaotr and buncher and I was interested in evaluating the beam shape when they leave the buncher.
 
-\subsection{Control Room}
+The results was quite wired. Because although we could se the pexpansion because of the particle-partilce expansion, but the results was showing a strange decrease at the  stansrad deviation of the z position of the particles. and the decrease in std was getting significent as the the number of particels increased. So I decided to run more simulations with longer beam lines.
+
+\subsubsection{Long Beamline}
+In this part of simulation I increased the length of beam line. the size of beam line for these simulations was about 7 meters. 
+
+The significant result of this change was an decrease in the depth of valley at the std(z), and more significant result was time of simulation that increased form 18 hours to 31 hours.
+ So we noticed that the valley was because of the end surface of the beam line that as the particles reach there they stick to the surface (this was because of the option that I set in preparing the simulation).
+ 
+\subsubsection{Real Beamline}
+this simulatio was very computationaly costly, which took about 23 hours to simulate just five particles. The reults was as we expected. There was no decrease in std(z) of particles. So this simulation was colser to the real setup than perivious ones. So I tryed to simulate the more particles in this setup.
+
+
+
+\subsection{LabVIEW Interface}
+Advanced and complicated Experiments like most of the experimenst at cern, are impossible without using the advanced electronics for both collecting and analyzing data and controling the experiment apartues. For these advanced experinents there are tons of parameters to be controled, which are done in the control room. 
+So having a safe and graphical interface for this purpose has a key rule. I this project I desinged a safe and graphical interface to control the positron source.
+\subsubsection{Positron Source aparues}
+
+
+\subsubsection{Electronics Components}
+
+\subsubsection{Virtual Interface}
+
+
+\subsection{Electronics}
+As mentioned bofore, handling advanced experimnets requires advanced electronic setups. As the  time passes the electronics and computers get more powerful. So on of the important 'Must do's for every experiment is holding equipments update according to the last technologies. ALPHA was born at 2008 and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal and data aquistion purposes. In these computers we use DAQ madules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. 
+
+
+\subsection{Full Simulation}
+
+
+
+
+
+\section{Courses}
+\includegraphics[scale=1]{Alpha}
+
+\subsection{Particle World by Tara Shears}
+\subsection{Detectors by Werner Riegler}
+\subsection{Foundation of Statistics by Nicolas Berger}
+\subsection{Theoretical Concepts in Particle Physics by Andrew Cohen}
+\subsection{Electronics DAQ and Triggers}
+\subsection{From Raw Data to Physics Results by Paul James}
+\subsection{Experimental Physics at Hadron Colliders by Marumi Kado}
+\subsection{Physics and Medical Applications by Manjiy Dosanjih}
+\subsection{•}
+
+\subsection{Online Courses}
+
+
+\section{Workshops}
+
 
 
 
