@@ -73,9 +73,9 @@ It is a basic and unavoidable fact in the antimatter business that in order to p
 This is accomplished in ALPHA through the use of Penning traps, a type of trap commonly used in plasma physics experiments to confine charged plasmas. Charge is in fact the difference, and indeed the dilemma faced when attempting to trap antihydrogen. Because antihydrogen is neutral, it cannot be held in a traditional Penning trap. This is where ALPHA’s unique magnetic trap comes in (see \ref{Magnets}).
 
 As for positron, antiproton and electron plasmas: a Penning trap will certainly do the trick. In a Penning trap, charged plasmas are confined in a superposition of magnetic and electric fields. You can find a great summary of fields used to trap the particles in figure \ref{trap}
-\begin{figure}
-\centering
 
+\begin{figure}[h]
+\centering
 \includegraphics[scale=0.4]{penning-trap-figure}
 \caption{Penning Trap}
 \label{trap}
@@ -87,6 +87,15 @@ When the particles are released from positron source, they trap at the potential
 
 
 First we decided to see this expansion on simulation. So I set up a simulation with COMSOL and we could see that the standard deviation of particles increases as they travel toward penning trap. because of the long beam line, and the limitation of computational resources I did the simulation in three steps: Short beam line, Long beam line, Real beam line.
+
+\begin{figure}[h]
+
+\centering
+\includegraphics[width=110mm, height=40mm]{potential}
+\caption{Electric Potential in the center Cnter axis of beam line}
+
+\end{figure}
+
 \subsubsection{Short Beamline}
 In this simulation I set the lenght of beam line to be about 3 meters which only covers the accumulaotr and buncher and I was interested in evaluating the beam shape when they leave the buncher.
 
@@ -125,23 +134,43 @@ this simulatio was very computationaly costly, which took about 23 hours to simu
 \subsubsection{Buncher Simulation}
 As I mentioned earlier, the beam of positrons expand as they travel toward penning trap and this expansion can be supressed using buncher. We need
 
-as we mentione derleite hhgr bhbhu ]uoghrh jfoierj ijre oerhj ojhg ermjoergj ioergi erogj oerjrhg iergj reiomoghereoimgnoerh gioerjogj remig rej goig erjmgoigh erjgh erjgngreh mgjnererhg rejerrg ermjgngre jmgerger jmernggfjerj nffh rejnhgg ermngoieghr gjmerjhg ermnegre jgnregh ermngbernkljggh erjmgnhgjmeirgergjmmgerhmjgier ifergijer gjoerio gjren ger giejrerr geir gierg ererg erioingg ering erno greonh erong erg eboherg borenij gjre jrenoff erno rieno frenoi freuohf rnoeh fenof renofnrn ejnofrunnr enih9freno feo
-g
+\begin{figure}[h]
+\centering
+\includegraphics[width=110mm, height=40mm]{potential_buncher}
+\caption{Electric Potential in the centeral axis of beam line. In this simulation buncher has $ V = 10 sin(2 \pi f t) $ potential in which $ f=10 MHz $}
+\end{figure}
+
+And the result of the effect of the sine potential of particles is figure.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=50mm, height=50mm]{buncer-in-100V-1Mhz-50Particles}
+\includegraphics[width=50mm, height=50mm]{buncer-std-100V-1Mhz-50Particles}
+\caption{Trajectory and Standard deviation of beam with 100 Particles in a beam line 11 meters long. In this simulation buncher has $ V = 100 sin(2 \pi f t) $ potential in which $ f=1 MHz $}
+\end{figure}
+
+
+
+\newpage
+
+
 \subsection{LabVIEW Interface}
+
 Advanced and complicated Experiments like most of the experimenst at cern, are impossible without using the advanced electronics for both collecting and analyzing data and controling the experiment apartues. For these advanced experinents there are tons of parameters to be controled, which are done in the control room (figure \ref{control}). 
 So having a safe and graphical interface for this purpose has a key rule. In this project I desinged a safe and graphical interface to control the positron source. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.082]{control_room}
-\caption{Control Room}
+\includegraphics[width=60mm, height=60mm]{control_room}
+\includegraphics[width=60mm, height=60mm]{experiment_hall}
+\caption{Control Room and Experimen Hall}
 \label{control}
 \end{figure}
 
 
 
 
-\subsubsection{Positron Source aparues}
+\subsubsection{Positron Source}
 
 ALPHA derives its positrons from a radioactive beta-decay source containing an isotope of sodium, Na-22. This isotope, which has a conveniently long half-life of about 2.6 years, emits positrons with a large spread of kinetic energies up to about 545 keV. Such energetic positrons cannot easily be applied for antihydrogen production, so that ALPHA uses a well established technique to produce a low energy (eV) beam of positrons in vacuum.
 
@@ -151,7 +180,7 @@ Positrons implanted into solid material typically have a lifetime less than one 
  
 \begin{figure}[h]
 \centering
-\includegraphics[width=130 mm]{fullsetup}
+\includegraphics[width=110 mm, height=40mm]{fullsetup}
 \caption{Positron Source and Accumulator}
 \end{figure}
 
@@ -183,6 +212,8 @@ The Virtual Interface of VI that I have designed will contorl the valves, magnet
 
 The block diagram that controls this VI consists of three different sub VIs. I have desinged  block diagram to be modular and mmy supervisor can add other control and options after my departure. each of these sub VIs is for Valves, Vacuum pumps and pass camra section. These VIs must feed by a number that indicates the state of valve or vacuum pump to be On or Off, and by a string that the Icon of the elents in GUI are in it. The sub VI will brrows the proper Icon considering the numeric input and will send the picture as Output. all of this elements are in a event structure to reduce the amount of cpu uccpation. the reduction of CPU use is because the while loop around the event structure will run for 1 time, just when you changfe the values of the each event structure.
 
+\newpage
+
 \subsection{Compact Rio Upgrade}
 As mentioned bofore, handling advanced experimnets requires advanced electronic setups. As the  time passes the electronics and computers get more powerful. So one of the important 'Must do's for every experiment is upgrading the componets of experiment to the last technologies. ALPHA was born at 2009[????] and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal and data aquistion purposes. In more details, CompactRIO (or cRIO) is a real-time embedded industrial controller made by National Instruments for industrial control systems. The CompactRIO is a combination of a real-time controller, reconfigurable IO Modules (RIO), FPGA module and an Ethernet expansion chassis.[Wikipedia of cRio](figure \ref{crio}). In these computers we use DAQ madules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. for this purpose we need to design a printed circuit board (PCB), that maps every pin on D-subminature connector to individual lemo connectors.
 
@@ -212,14 +243,16 @@ These platforms are where that the Compact Rio will sit at. Each compact rio wil
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.17]{ni9205_pcb}
-\includegraphics[scale=0.27]{ni9205panel}
-\includegraphics[scale=0.27]{ni9205_3d}
+\includegraphics[width=50mm, height=28mm]{ni9205_pcb}
+\includegraphics[width=50mm,
+height=28mm]{ni9205panel}
+\includegraphics[width=80mm,
+height=40mm]{ni9205_3d}
 \caption{First: DLS designed for NI9205 module, Second: 3D model of DLS, Third: Front Panel Designed for NI9205 DLS}
 \label{NI}
 \end{figure}
 
-
+\newpage
 
 \subsection{Full Simulation}
 ‌Simple simulations are very useful when you want to evaluate your stimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve you simulated model and add more details to it. In the simple simualtion of buncher we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beam line.
