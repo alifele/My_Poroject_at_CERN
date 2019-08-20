@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  19 AUG 2019 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  20 AUG 2019 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,18 +75,18 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (./summary.aux)
 \openout1 = `summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -158,48 +158,217 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <6> on input line 10.
+<Alpha.png, id=1, 475.5366pt x 471.2004pt>
+File: Alpha.png Graphic file (type png)
+<use Alpha.png>
+Package pdftex.def Info: Alpha.png  used on input line 14.
+(pdftex.def)             Requested size: 47.55644pt x 47.12279pt.
+<cern.jpg, id=3, 603.25375pt x 602.25pt>
+File: cern.jpg Graphic file (type jpg)
+<use cern.jpg>
+Package pdftex.def Info: cern.jpg  used on input line 15.
+(pdftex.def)             Requested size: 60.3289pt x 60.22852pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<Alpha.png, id=14, 475.5366pt x 471.2004pt>
-File: Alpha.png Graphic file (type png)
-<use Alpha.png>
-Package pdftex.def Info: Alpha.png  used on input line 68.
-(pdftex.def)             Requested size: 475.53543pt x 471.19923pt.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Alpha.png> <./cern.jpg>]
+ (./summary.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `summary.toc'.
 
-Overfull \hbox (130.53543pt too wide) in paragraph at lines 68--69
-[] 
+ [2]
+<antimatter_factory.jpg, id=18, 4175.6pt x 3131.7pt>
+File: antimatter_factory.jpg Graphic file (type jpg)
+<use antimatter_factory.jpg>
+Package pdftex.def Info: antimatter_factory.jpg  used on input line 33.
+(pdftex.def)             Requested size: 170.71652pt x 128.01823pt.
+<alpha_hall.jpg, id=19, 4175.6pt x 3131.7pt>
+File: alpha_hall.jpg Graphic file (type jpg)
+<use alpha_hall.jpg>
+Package pdftex.def Info: alpha_hall.jpg  used on input line 34.
+(pdftex.def)             Requested size: 170.71652pt x 128.01823pt.
+<full_map.png, id=20, 3854.4pt x 1754.555pt>
+File: full_map.png Graphic file (type png)
+<use full_map.png>
+Package pdftex.def Info: full_map.png  used on input line 43.
+(pdftex.def)             Requested size: 346.88104pt x 157.90314pt.
+
+Overfull \hbox (1.88104pt too wide) in paragraph at lines 43--44
+ [][] 
  []
 
-[3]
-Missing character: There is no â in font cmbx12!
-Missing character: There is no € in font cmbx12!
-Missing character: There is no ¢ in font cmbx12!
- [4 <./Alpha.png>] [5] (./summary.aux) ) 
+[3 <./antimatter_factory.jpg> <./alpha_hall.jpg> <./full_map.png>]
+<magnets-trap.jpg, id=25, 433.62pt x 297.7524pt>
+File: magnets-trap.jpg Graphic file (type jpg)
+<use magnets-trap.jpg>
+Package pdftex.def Info: magnets-trap.jpg  used on input line 55.
+(pdftex.def)             Requested size: 173.44492pt x 119.09885pt.
+<magnet.jpg, id=26, 301.125pt x 225.84375pt>
+File: magnet.jpg Graphic file (type jpg)
+<use magnet.jpg>
+Package pdftex.def Info: magnet.jpg  used on input line 56.
+(pdftex.def)             Requested size: 156.58589pt x 117.4394pt.
+<detector.png, id=27, 429.605pt x 453.695pt>
+File: detector.png Graphic file (type png)
+<use detector.png>
+Package pdftex.def Info: detector.png  used on input line 65.
+(pdftex.def)             Requested size: 171.83894pt x 181.47478pt.
+<detector-2.png, id=28, 426.59375pt x 450.68375pt>
+File: detector-2.png Graphic file (type png)
+<use detector-2.png>
+Package pdftex.def Info: detector-2.png  used on input line 66.
+(pdftex.def)             Requested size: 170.63446pt x 180.2703pt.
+ [4 <./magnets-trap.jpg> <./magnet.jpg>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<penning-trap-figure.png, id=32, 601.24625pt x 610.28pt>
+File: penning-trap-figure.png Graphic file (type png)
+<use penning-trap-figure.png>
+Package pdftex.def Info: penning-trap-figure.png  used on input line 79.
+(pdftex.def)             Requested size: 240.49423pt x 244.10767pt.
+ [5 <./detector.png> <./detector-2.png>] [6 <./penning-trap-figure.png>]
+<control_room.jpg, id=41, 4175.6pt x 3131.7pt>
+File: control_room.jpg Graphic file (type jpg)
+<use control_room.jpg>
+Package pdftex.def Info: control_room.jpg  used on input line 115.
+(pdftex.def)             Requested size: 342.40141pt x 256.80106pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<fullsetup.png, id=46, 1213.53375pt x 523.9575pt>
+File: fullsetup.png Graphic file (type png)
+<use fullsetup.png>
+Package pdftex.def Info: fullsetup.png  used on input line 133.
+(pdftex.def)             Requested size: 369.88582pt x 159.69887pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<control_platform-1.jpg, id=47, 4175.6pt x 3131.7pt>
+File: control_platform-1.jpg Graphic file (type jpg)
+<use control_platform-1.jpg>
+Package pdftex.def Info: control_platform-1.jpg  used on input line 144.
+(pdftex.def)             Requested size: 213.37967pt x 170.691pt.
+<control_plattform2.jpg, id=48, 3131.7pt x 4175.6pt>
+File: control_plattform2.jpg Graphic file (type jpg)
+<use control_plattform2.jpg>
+Package pdftex.def Info: control_plattform2.jpg  used on input line 145.
+(pdftex.def)             Requested size: 128.0374pt x 170.691pt.
+[8 <./control_room.jpg>] [9 <./fullsetup.png> <./control_platform-1.jpg> <./con
+trol_plattform2.jpg>]
+<PCI_8430.jpg, id=55, 1606.0pt x 1204.5pt>
+File: PCI_8430.jpg Graphic file (type jpg)
+<use PCI_8430.jpg>
+Package pdftex.def Info: PCI_8430.jpg  used on input line 154.
+(pdftex.def)             Requested size: 113.80379pt x 142.25475pt.
+<control_platform.jpg, id=56, 4175.6pt x 3131.7pt>
+File: control_platform.jpg Graphic file (type jpg)
+<use control_platform.jpg>
+Package pdftex.def Info: control_platform.jpg  used on input line 155.
+(pdftex.def)             Requested size: 227.588pt x 142.25842pt.
+ [10 <./PCI_8430.jpg> <./control_platform.jpg>]
+<crio.jpg, id=60, 4175.6pt x 3131.7pt>
+File: crio.jpg Graphic file (type jpg)
+<use crio.jpg>
+Package pdftex.def Info: crio.jpg  used on input line 170.
+(pdftex.def)             Requested size: 298.69331pt x 170.691pt.
+
+
+LaTeX Warning: Reference `mod' on page 11 undefined on input line 177.
+
+<ni9205.jpg, id=61, 128.73094pt x 191.21437pt>
+File: ni9205.jpg Graphic file (type jpg)
+<use ni9205.jpg>
+Package pdftex.def Info: ni9205.jpg  used on input line 181.
+(pdftex.def)             Requested size: 76.82468pt x 105.27617pt.
+<ni9264.jpg, id=62, 177.66376pt x 191.21437pt>
+File: ni9264.jpg Graphic file (type jpg)
+<use ni9264.jpg>
+Package pdftex.def Info: ni9264.jpg  used on input line 182.
+(pdftex.def)             Requested size: 76.82495pt x 105.27617pt.
+<ni9401.jpg, id=63, 401.5pt x 292.09125pt>
+File: ni9401.jpg Graphic file (type jpg)
+<use ni9401.jpg>
+Package pdftex.def Info: ni9401.jpg  used on input line 183.
+(pdftex.def)             Requested size: 108.1185pt x 105.27309pt.
+<ni9403.jpg, id=64, 198.7425pt x 255.95625pt>
+File: ni9403.jpg Graphic file (type jpg)
+<use ni9403.jpg>
+Package pdftex.def Info: ni9403.jpg  used on input line 184.
+(pdftex.def)             Requested size: 68.28723pt x 105.2747pt.
+[11 <./crio.jpg>]
+<ni9205_pcb.PNG, id=68, 980.16188pt x 539.01375pt>
+File: ni9205_pcb.PNG Graphic file (type png)
+<use ni9205_pcb.PNG>
+Package pdftex.def Info: ni9205_pcb.PNG  used on input line 194.
+(pdftex.def)             Requested size: 166.6253pt x 91.63112pt.
+<ni9205panel.PNG, id=69, 603.0028pt x 337.26pt>
+File: ni9205panel.PNG Graphic file (type png)
+<use ni9205panel.PNG>
+Package pdftex.def Info: ni9205panel.PNG  used on input line 195.
+(pdftex.def)             Requested size: 162.81293pt x 91.06142pt.
+<ni9205_3d.PNG, id=70, 903.375pt x 507.39563pt>
+File: ni9205_3d.PNG Graphic file (type png)
+<use ni9205_3d.PNG>
+Package pdftex.def Info: ni9205_3d.PNG  used on input line 196.
+(pdftex.def)             Requested size: 243.9145pt x 136.99864pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no Œ in font cmr10!
+ [12 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
+PNG> <./ni9205panel.PNG> <./ni9205_3d.PNG>]
+Overfull \hbox (3.17743pt too wide) in paragraph at lines 207--207
+[]\OT1/cmr/bx/n/10 Running Sim-u-la-tion on HT-Con-dor Pro-vided by LX-PLUS Lin
+ux
+ []
+
+<lxplus.png, id=77, 1371.1225pt x 770.88pt>
+File: lxplus.png Graphic file (type png)
+<use lxplus.png>
+Package pdftex.def Info: lxplus.png  used on input line 212.
+(pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
+[13] [14 <./lxplus.png>] [15] (./summary.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1621 strings out of 494853
- 23535 string characters out of 6178458
- 77512 words of memory out of 5000000
- 4953 multiletter control sequences out of 15000+600000
+ 1762 strings out of 494853
+ 25827 string characters out of 6178458
+ 78574 words of memory out of 5000000
+ 5060 multiletter control sequences out of 15000+600000
  7895 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,6n,25p,971b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb>
-Output written on summary.pdf (5 pages, 115060 bytes).
+ 41i,7n,25p,1771b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on summary.pdf (15 pages, 14945184 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
