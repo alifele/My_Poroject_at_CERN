@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  20 AUG 2019 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  20 AUG 2019 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -238,125 +238,172 @@ File: penning-trap-figure.png Graphic file (type png)
 Package pdftex.def Info: penning-trap-figure.png  used on input line 79.
 (pdftex.def)             Requested size: 240.49423pt x 244.10767pt.
  [5 <./detector.png> <./detector-2.png>] [6 <./penning-trap-figure.png>]
-<control_room.jpg, id=41, 4175.6pt x 3131.7pt>
+<sim-in-6000.png, id=41, 478.4274pt x 303.534pt>
+File: sim-in-6000.png Graphic file (type png)
+<use sim-in-6000.png>
+Package pdftex.def Info: sim-in-6000.png  used on input line 97.
+(pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
+<sim-std-6000.png, id=42, 478.4274pt x 303.534pt>
+File: sim-std-6000.png Graphic file (type png)
+<use sim-std-6000.png>
+Package pdftex.def Info: sim-std-6000.png  used on input line 98.
+(pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
+<sim-in-100-long.png, id=43, 478.4274pt x 303.534pt>
+File: sim-in-100-long.png Graphic file (type png)
+<use sim-in-100-long.png>
+Package pdftex.def Info: sim-in-100-long.png  used on input line 110.
+(pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
+<sim-std-100-long.png, id=44, 478.4274pt x 303.534pt>
+File: sim-std-100-long.png Graphic file (type png)
+<use sim-std-100-long.png>
+Package pdftex.def Info: sim-std-100-long.png  used on input line 111.
+(pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
+ [7 <./sim-in-6000.png (PNG copy)> <./sim-std-6000.png (PNG copy)> <./sim-in-10
+0-long.png (PNG copy)> <./sim-std-100-long.png (PNG copy)>]
+<sim-in-100-11met.png, id=49, 715.17188pt x 547.2947pt>
+File: sim-in-100-11met.png Graphic file (type png)
+<use sim-in-100-11met.png>
+Package pdftex.def Info: sim-in-100-11met.png  used on input line 120.
+(pdftex.def)             Requested size: 142.25703pt x 142.25986pt.
+<sim-std-100-11met.png, id=50, 715.17188pt x 547.2947pt>
+File: sim-std-100-11met.png Graphic file (type png)
+<use sim-std-100-11met.png>
+Package pdftex.def Info: sim-std-100-11met.png  used on input line 121.
+(pdftex.def)             Requested size: 142.25703pt x 142.25986pt.
+<control_room.jpg, id=51, 4175.6pt x 3131.7pt>
 File: control_room.jpg Graphic file (type jpg)
 <use control_room.jpg>
-Package pdftex.def Info: control_room.jpg  used on input line 115.
+Package pdftex.def Info: control_room.jpg  used on input line 136.
 (pdftex.def)             Requested size: 342.40141pt x 256.80106pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
+[8 <./sim-in-100-11met.png (PNG copy)> <./sim-std-100-11met.png (PNG copy)>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-<fullsetup.png, id=46, 1213.53375pt x 523.9575pt>
+<fullsetup.png, id=55, 1213.53375pt x 523.9575pt>
 File: fullsetup.png Graphic file (type png)
 <use fullsetup.png>
-Package pdftex.def Info: fullsetup.png  used on input line 133.
+Package pdftex.def Info: fullsetup.png  used on input line 154.
 (pdftex.def)             Requested size: 369.88582pt x 159.69887pt.
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 133--134
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 154--155
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<control_platform-1.jpg, id=47, 4175.6pt x 3131.7pt>
+<control_platform-1.jpg, id=56, 4175.6pt x 3131.7pt>
 File: control_platform-1.jpg Graphic file (type jpg)
 <use control_platform-1.jpg>
-Package pdftex.def Info: control_platform-1.jpg  used on input line 144.
+Package pdftex.def Info: control_platform-1.jpg  used on input line 165.
 (pdftex.def)             Requested size: 213.37967pt x 170.691pt.
-<control_plattform2.jpg, id=48, 3131.7pt x 4175.6pt>
+<control_plattform2.jpg, id=57, 3131.7pt x 4175.6pt>
 File: control_plattform2.jpg Graphic file (type jpg)
 <use control_plattform2.jpg>
-Package pdftex.def Info: control_plattform2.jpg  used on input line 145.
+Package pdftex.def Info: control_plattform2.jpg  used on input line 166.
 (pdftex.def)             Requested size: 128.0374pt x 170.691pt.
-[8 <./control_room.jpg>] [9 <./fullsetup.png> <./control_platform-1.jpg> <./con
-trol_plattform2.jpg>]
-<PCI_8430.jpg, id=55, 1606.0pt x 1204.5pt>
+[9 <./control_room.jpg>] [10 <./fullsetup.png> <./control_platform-1.jpg> <./co
+ntrol_plattform2.jpg>]
+<PCI_8430.jpg, id=64, 1606.0pt x 1204.5pt>
 File: PCI_8430.jpg Graphic file (type jpg)
 <use PCI_8430.jpg>
-Package pdftex.def Info: PCI_8430.jpg  used on input line 154.
+Package pdftex.def Info: PCI_8430.jpg  used on input line 175.
 (pdftex.def)             Requested size: 113.80379pt x 142.25475pt.
-<control_platform.jpg, id=56, 4175.6pt x 3131.7pt>
+<control_platform.jpg, id=65, 4175.6pt x 3131.7pt>
 File: control_platform.jpg Graphic file (type jpg)
 <use control_platform.jpg>
-Package pdftex.def Info: control_platform.jpg  used on input line 155.
+Package pdftex.def Info: control_platform.jpg  used on input line 176.
 (pdftex.def)             Requested size: 227.588pt x 142.25842pt.
- [10 <./PCI_8430.jpg> <./control_platform.jpg>]
-<crio.jpg, id=60, 4175.6pt x 3131.7pt>
+ [11 <./PCI_8430.jpg> <./control_platform.jpg>]
+<crio.jpg, id=69, 4175.6pt x 3131.7pt>
 File: crio.jpg Graphic file (type jpg)
 <use crio.jpg>
-Package pdftex.def Info: crio.jpg  used on input line 170.
+Package pdftex.def Info: crio.jpg  used on input line 191.
 (pdftex.def)             Requested size: 298.69331pt x 170.691pt.
 
 
-LaTeX Warning: Reference `mod' on page 11 undefined on input line 177.
+LaTeX Warning: Reference `mod' on page 12 undefined on input line 198.
 
-<ni9205.jpg, id=61, 128.73094pt x 191.21437pt>
+<ni9205.jpg, id=70, 128.73094pt x 191.21437pt>
 File: ni9205.jpg Graphic file (type jpg)
 <use ni9205.jpg>
-Package pdftex.def Info: ni9205.jpg  used on input line 181.
+Package pdftex.def Info: ni9205.jpg  used on input line 202.
 (pdftex.def)             Requested size: 76.82468pt x 105.27617pt.
-<ni9264.jpg, id=62, 177.66376pt x 191.21437pt>
+<ni9264.jpg, id=71, 177.66376pt x 191.21437pt>
 File: ni9264.jpg Graphic file (type jpg)
 <use ni9264.jpg>
-Package pdftex.def Info: ni9264.jpg  used on input line 182.
+Package pdftex.def Info: ni9264.jpg  used on input line 203.
 (pdftex.def)             Requested size: 76.82495pt x 105.27617pt.
-<ni9401.jpg, id=63, 401.5pt x 292.09125pt>
+<ni9401.jpg, id=72, 401.5pt x 292.09125pt>
 File: ni9401.jpg Graphic file (type jpg)
 <use ni9401.jpg>
-Package pdftex.def Info: ni9401.jpg  used on input line 183.
+Package pdftex.def Info: ni9401.jpg  used on input line 204.
 (pdftex.def)             Requested size: 108.1185pt x 105.27309pt.
-<ni9403.jpg, id=64, 198.7425pt x 255.95625pt>
+<ni9403.jpg, id=73, 198.7425pt x 255.95625pt>
 File: ni9403.jpg Graphic file (type jpg)
 <use ni9403.jpg>
-Package pdftex.def Info: ni9403.jpg  used on input line 184.
+Package pdftex.def Info: ni9403.jpg  used on input line 205.
 (pdftex.def)             Requested size: 68.28723pt x 105.2747pt.
-[11 <./crio.jpg>]
-<ni9205_pcb.PNG, id=68, 980.16188pt x 539.01375pt>
+[12 <./crio.jpg>]
+<ni9205_pcb.PNG, id=77, 980.16188pt x 539.01375pt>
 File: ni9205_pcb.PNG Graphic file (type png)
 <use ni9205_pcb.PNG>
-Package pdftex.def Info: ni9205_pcb.PNG  used on input line 194.
+Package pdftex.def Info: ni9205_pcb.PNG  used on input line 215.
 (pdftex.def)             Requested size: 166.6253pt x 91.63112pt.
-<ni9205panel.PNG, id=69, 603.0028pt x 337.26pt>
+<ni9205panel.PNG, id=78, 603.0028pt x 337.26pt>
 File: ni9205panel.PNG Graphic file (type png)
 <use ni9205panel.PNG>
-Package pdftex.def Info: ni9205panel.PNG  used on input line 195.
+Package pdftex.def Info: ni9205panel.PNG  used on input line 216.
 (pdftex.def)             Requested size: 162.81293pt x 91.06142pt.
-<ni9205_3d.PNG, id=70, 903.375pt x 507.39563pt>
+<ni9205_3d.PNG, id=79, 903.375pt x 507.39563pt>
 File: ni9205_3d.PNG Graphic file (type png)
 <use ni9205_3d.PNG>
-Package pdftex.def Info: ni9205_3d.PNG  used on input line 196.
+Package pdftex.def Info: ni9205_3d.PNG  used on input line 217.
 (pdftex.def)             Requested size: 243.9145pt x 136.99864pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Œ in font cmr10!
- [12 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
+ [13 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
 PNG> <./ni9205panel.PNG> <./ni9205_3d.PNG>]
-Overfull \hbox (3.17743pt too wide) in paragraph at lines 207--207
+<full-beam-line.PNG, id=87, 1166.10657pt x 679.03688pt>
+File: full-beam-line.PNG Graphic file (type png)
+<use full-beam-line.PNG>
+Package pdftex.def Info: full-beam-line.PNG  used on input line 231.
+(pdftex.def)             Requested size: 341.41843pt x 170.71204pt.
+<full-beam-line-half.PNG, id=88, 1305.37688pt x 529.98pt>
+File: full-beam-line-half.PNG Graphic file (type png)
+<use full-beam-line-half.PNG>
+Package pdftex.def Info: full-beam-line-half.PNG  used on input line 235.
+(pdftex.def)             Requested size: 341.42166pt x 113.806pt.
+
+Overfull \hbox (3.17743pt too wide) in paragraph at lines 238--238
 []\OT1/cmr/bx/n/10 Running Sim-u-la-tion on HT-Con-dor Pro-vided by LX-PLUS Lin
 ux
  []
 
-<lxplus.png, id=77, 1371.1225pt x 770.88pt>
+[14 <./full-beam-line.PNG> <./full-beam-line-half.PNG>]
+<lxplus.png, id=94, 1371.1225pt x 770.88pt>
 File: lxplus.png Graphic file (type png)
 <use lxplus.png>
-Package pdftex.def Info: lxplus.png  used on input line 212.
+Package pdftex.def Info: lxplus.png  used on input line 243.
 (pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
-[13] [14 <./lxplus.png>] [15] (./summary.aux)
+ [15 <./lxplus.png>]
+[16] [17] (./summary.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1762 strings out of 494853
- 25827 string characters out of 6178458
- 78574 words of memory out of 5000000
- 5060 multiletter control sequences out of 15000+600000
+ 1802 strings out of 494853
+ 26739 string characters out of 6178458
+ 78576 words of memory out of 5000000
+ 5092 multiletter control sequences out of 15000+600000
  7895 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,7n,25p,1771b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -365,10 +412,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on summary.pdf (15 pages, 14945184 bytes).
+Output written on summary.pdf (17 pages, 17660853 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

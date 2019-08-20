@@ -92,14 +92,35 @@ In this simulation I set the lenght of beam line to be about 3 meters which only
 
 The results was quite wired. Because although we could se the pexpansion because of the particle-partilce expansion, but the results was showing a strange decrease at the  stansrad deviation of the z position of the particles. and the decrease in std was getting significent as the the number of particels increased. So I decided to run more simulations with longer beam lines.
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=50mm, height=50mm]{sim-in-6000}
+\includegraphics[width=50mm, height=50mm]{sim-std-6000}
+\caption{Trajectory and Standard deviation of beam with 6000 Particles}
+\end{figure}
+
 \subsubsection{Long Beamline}
 In this part of simulation I increased the length of beam line. the size of beam line for these simulations was about 7 meters. 
 
 The significant result of this change was an decrease in the depth of valley at the std(z), and more significant result was time of simulation that increased form 18 hours to 31 hours.
  So we noticed that the valley was because of the end surface of the beam line that as the particles reach there they stick to the surface (this was because of the option that I set in preparing the simulation).
  
+\begin{figure}[h]
+\centering
+\includegraphics[width=50mm, height=50mm]{sim-in-100-long}
+\includegraphics[width=50mm, height=50mm]{sim-std-100-long}
+\caption{Trajectory and Standard deviation of beam with 6000 Particles in a beam line 6 meters long }
+\end{figure}
+ 
 \subsubsection{Real Beamline}
 this simulatio was very computationaly costly, which took about 23 hours to simulate just five particles. The reults was as we expected. There was no decrease in std(z) of particles. So this simulation was colser to the real setup than perivious ones. So I tryed to simulate the more particles in this setup.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=50mm, height=50mm]{sim-in-100-11met}
+\includegraphics[width=50mm, height=50mm]{sim-std-100-11met}
+\caption{Trajectory and Standard deviation of beam with 6000 Particles in a beam line 11 meters long }
+\end{figure}
 
 \subsubsection{Buncher Simulation}
 As I mentioned earlier, the beam of positrons expand as they travel toward penning trap and this expansion can be supressed using buncher. We need
@@ -204,6 +225,16 @@ These platforms are where that the Compact Rio will sit at. Each compact rio wil
 ‌Simple simulations are very useful when you want to evaluate your stimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve you simulated model and add more details to it. In the simple simualtion of buncher we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beam line.
 \subsubsection{Geometry}
 To make it possible, we needed to make a CAD model of magents in full setup. The data of magnets was in a file with .cond type which was designed to feed the data to the OPERA software to calculate the magnetic field. After finding the meaning of those numbers on .cond file with the help of my supervisor ,First I wrote a python code to transfer those data to a more clear data set of magnets[figure of excel]. Then I used the Inventor software to design all of the 82 magnets that contributes in the magnetic field of beam line. Then I added the Inventor model of buncher and Accumulator(that was previuosly created by ALPHA group).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=120mm, height=60mm]{full-beam-line}
+\\
+
+\includegraphics[width=120mm,
+height=40mm]{full-beam-line-half}
+\end{figure}
+
 \subsubsection{Running Simulation on HTCondor Provided by LXPLUS Linux Cluster}
 Althogh I was using two computers in parallel to generate the results faster, but Since Simulating the full setup was very computational expensive, So it impossible to simulate the whole setup with 32 GB of RAM. The time of simulation was very long as well, so we needed to run our simulation on HTcondor. HTcondor  stands for High Throughput Computing and is a specialized workload management system for compute-intensive jobs. Like other full-featured batch systems, HTCondor provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion[https://research.cs.wisc.edu/htcondor/description.html]. linux clusters of cern provides the HTcondor computation and you can access big memory nodes and higher number of cpu cores. But since I was here yat cern for 53 days, it was impossible to run all of the simulations on clusters and get results. So in this part of my project I set up the full simulation file with the real initial values used in apartues .since I was familiar with Linux I could set up the environement and submit some sample simularions [figure lxplus] and my supervisor will run the simulation on cluster after my departure. This simulation contains a parametric sweep to search the optimum values for "amplitude", "Frequency" and "phase" of the the sine potential that is applied on the buncher. The real Quantitive results will be generated with this simulation and it will help us to tune the paramters of bunher on order to bunch the positron beam.
 
