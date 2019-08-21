@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  21 AUG 2019 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  21 AUG 2019 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -217,66 +217,67 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <potential.png, id=42, 715.17188pt x 547.2947pt>
 File: potential.png Graphic file (type png)
 <use potential.png>
-Package pdftex.def Info: potential.png  used on input line 117.
+Package pdftex.def Info: potential.png  used on input line 118.
 (pdftex.def)             Requested size: 312.98514pt x 85.35591pt.
 <potential-3D.png, id=43, 873.2625pt x 645.16031pt>
 File: potential-3D.png Graphic file (type png)
 <use potential-3D.png>
-Package pdftex.def Info: potential-3D.png  used on input line 118.
+Package pdftex.def Info: potential-3D.png  used on input line 119.
 (pdftex.def)             Requested size: 312.97514pt x 113.81041pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<sim-in-6000.png, id=44, 478.4274pt x 303.534pt>
+[6 <./Mesh.PNG>]
+<sim-in-6000.png, id=49, 478.4274pt x 303.534pt>
 File: sim-in-6000.png Graphic file (type png)
 <use sim-in-6000.png>
-Package pdftex.def Info: sim-in-6000.png  used on input line 132.
+Package pdftex.def Info: sim-in-6000.png  used on input line 133.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
-<sim-std-6000.png, id=45, 478.4274pt x 303.534pt>
+<sim-std-6000.png, id=50, 478.4274pt x 303.534pt>
 File: sim-std-6000.png Graphic file (type png)
 <use sim-std-6000.png>
-Package pdftex.def Info: sim-std-6000.png  used on input line 133.
+Package pdftex.def Info: sim-std-6000.png  used on input line 134.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
-[6 <./Mesh.PNG>] [7 <./potential.png (PNG copy)> <./potential-3D.png> <./sim-in
--6000.png (PNG copy)> <./sim-std-6000.png (PNG copy)>]
+ [7 <./potential.png (PNG copy)> <./potential-3D.png> <./sim-in-6000.png (PNG c
+opy)> <./sim-std-6000.png (PNG copy)>]
 <sim-in-100-long.png, id=55, 478.4274pt x 303.534pt>
 File: sim-in-100-long.png Graphic file (type png)
 <use sim-in-100-long.png>
-Package pdftex.def Info: sim-in-100-long.png  used on input line 147.
+Package pdftex.def Info: sim-in-100-long.png  used on input line 148.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
 <sim-std-100-long.png, id=56, 478.4274pt x 303.534pt>
 File: sim-std-100-long.png Graphic file (type png)
 <use sim-std-100-long.png>
-Package pdftex.def Info: sim-std-100-long.png  used on input line 148.
+Package pdftex.def Info: sim-std-100-long.png  used on input line 149.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
  [8 <./sim-in-100-long.png (PNG copy)> <./sim-std-100-long.png (PNG copy)>]
 <sim-in-100-11met.png, id=60, 715.17188pt x 547.2947pt>
 File: sim-in-100-11met.png Graphic file (type png)
 <use sim-in-100-11met.png>
-Package pdftex.def Info: sim-in-100-11met.png  used on input line 159.
+Package pdftex.def Info: sim-in-100-11met.png  used on input line 160.
 (pdftex.def)             Requested size: 142.25703pt x 142.25986pt.
 <sim-std-100-11met.png, id=61, 715.17188pt x 547.2947pt>
 File: sim-std-100-11met.png Graphic file (type png)
 <use sim-std-100-11met.png>
-Package pdftex.def Info: sim-std-100-11met.png  used on input line 160.
+Package pdftex.def Info: sim-std-100-11met.png  used on input line 161.
 (pdftex.def)             Requested size: 142.25703pt x 142.25986pt.
 <potential_buncher.png, id=62, 715.17188pt x 547.2947pt>
 File: potential_buncher.png Graphic file (type png)
 <use potential_buncher.png>
-Package pdftex.def Info: potential_buncher.png  used on input line 169.
+Package pdftex.def Info: potential_buncher.png  used on input line 170.
 (pdftex.def)             Requested size: 312.98514pt x 113.80788pt.
 <buncer-in-100V-1Mhz-50Particles.png, id=63, 478.4274pt x 303.534pt>
 File: buncer-in-100V-1Mhz-50Particles.png Graphic file (type png)
 <use buncer-in-100V-1Mhz-50Particles.png>
 Package pdftex.def Info: buncer-in-100V-1Mhz-50Particles.png  used on input lin
-e 177.
+e 178.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
 <buncer-std-100V-1Mhz-50Particles.png, id=64, 478.4274pt x 303.534pt>
 File: buncer-std-100V-1Mhz-50Particles.png Graphic file (type png)
 <use buncer-std-100V-1Mhz-50Particles.png>
 Package pdftex.def Info: buncer-std-100V-1Mhz-50Particles.png  used on input li
-ne 178.
+ne 179.
 (pdftex.def)             Requested size: 142.25908pt x 142.26268pt.
 
 
@@ -287,12 +288,12 @@ potential_buncher.png (PNG copy)>]
 <control_room.jpg, id=69, 4175.6pt x 3131.7pt>
 File: control_room.jpg Graphic file (type jpg)
 <use control_room.jpg>
-Package pdftex.def Info: control_room.jpg  used on input line 194.
+Package pdftex.def Info: control_room.jpg  used on input line 195.
 (pdftex.def)             Requested size: 170.691pt x 170.691pt.
 <experiment_hall.jpg, id=70, 4175.6pt x 3131.7pt>
 File: experiment_hall.jpg Graphic file (type jpg)
 <use experiment_hall.jpg>
-Package pdftex.def Info: experiment_hall.jpg  used on input line 195.
+Package pdftex.def Info: experiment_hall.jpg  used on input line 196.
 (pdftex.def)             Requested size: 170.691pt x 170.691pt.
  [10 <./buncer-in-100V-1Mhz-50Particles.png (PNG copy)> <./buncer-std-100V-1Mhz
 -50Particles.png (PNG copy)> <./control_room.jpg> <./experiment_hall.jpg>]
@@ -302,17 +303,17 @@ Missing character: There is no ™ in font cmr12!
 <fullsetup.png, id=74, 1213.53375pt x 523.9575pt>
 File: fullsetup.png Graphic file (type png)
 <use fullsetup.png>
-Package pdftex.def Info: fullsetup.png  used on input line 213.
+Package pdftex.def Info: fullsetup.png  used on input line 214.
 (pdftex.def)             Requested size: 312.9745pt x 113.80792pt.
 <control_platform-1.jpg, id=75, 4175.6pt x 3131.7pt>
 File: control_platform-1.jpg Graphic file (type jpg)
 <use control_platform-1.jpg>
-Package pdftex.def Info: control_platform-1.jpg  used on input line 224.
+Package pdftex.def Info: control_platform-1.jpg  used on input line 226.
 (pdftex.def)             Requested size: 213.37967pt x 170.691pt.
 <control_plattform2.jpg, id=76, 3131.7pt x 4175.6pt>
 File: control_plattform2.jpg Graphic file (type jpg)
 <use control_plattform2.jpg>
-Package pdftex.def Info: control_plattform2.jpg  used on input line 225.
+Package pdftex.def Info: control_plattform2.jpg  used on input line 227.
 (pdftex.def)             Requested size: 128.0374pt x 170.691pt.
 
 
@@ -322,70 +323,72 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <PCI_8430.jpg, id=80, 1606.0pt x 1204.5pt>
 File: PCI_8430.jpg Graphic file (type jpg)
 <use PCI_8430.jpg>
-Package pdftex.def Info: PCI_8430.jpg  used on input line 234.
+Package pdftex.def Info: PCI_8430.jpg  used on input line 236.
 (pdftex.def)             Requested size: 113.80379pt x 142.25475pt.
 <control_platform.jpg, id=81, 4175.6pt x 3131.7pt>
 File: control_platform.jpg Graphic file (type jpg)
 <use control_platform.jpg>
-Package pdftex.def Info: control_platform.jpg  used on input line 235.
+Package pdftex.def Info: control_platform.jpg  used on input line 237.
 (pdftex.def)             Requested size: 227.588pt x 142.25842pt.
  [12 <./control_platform-1.jpg> <./control_plattform2.jpg> <./PCI_8430.jpg> <./
 control_platform.jpg>]
 <Block-Diagram.PNG, id=86, 1027.58907pt x 495.35063pt>
 File: Block-Diagram.PNG Graphic file (type png)
 <use Block-Diagram.PNG>
-Package pdftex.def Info: Block-Diagram.PNG  used on input line 247.
+Package pdftex.def Info: Block-Diagram.PNG  used on input line 249.
 (pdftex.def)             Requested size: 297.9932pt x 143.648pt.
 <InterFace.PNG, id=87, 1382.16376pt x 928.21782pt>
 File: InterFace.PNG Graphic file (type png)
 <use InterFace.PNG>
-Package pdftex.def Info: InterFace.PNG  used on input line 249.
+Package pdftex.def Info: InterFace.PNG  used on input line 251.
 (pdftex.def)             Requested size: 304.07697pt x 204.20854pt.
  [13 <./Block-Diagram.PNG> <./InterFace.PNG>]
 <crio.jpg, id=93, 4175.6pt x 3131.7pt>
 File: crio.jpg Graphic file (type jpg)
 <use crio.jpg>
-Package pdftex.def Info: crio.jpg  used on input line 258.
+Package pdftex.def Info: crio.jpg  used on input line 261.
 (pdftex.def)             Requested size: 298.69331pt x 170.691pt.
 
-
-LaTeX Warning: Reference `mod' on page 14 undefined on input line 265.
+Overfull \hbox (8.20792pt too wide) in paragraph at lines 267--269
+\OT1/cmr/m/n/12 con-nect the D-subminator con-nec-tor to in-di-vid-ual Lemo Con
+-nec-tors. Through-
+ []
 
 [14 <./crio.jpg>]
 <ni9205.jpg, id=97, 128.73094pt x 191.21437pt>
 File: ni9205.jpg Graphic file (type jpg)
 <use ni9205.jpg>
-Package pdftex.def Info: ni9205.jpg  used on input line 269.
+Package pdftex.def Info: ni9205.jpg  used on input line 272.
 (pdftex.def)             Requested size: 76.82468pt x 68.28568pt.
 <ni9264.jpg, id=98, 177.66376pt x 191.21437pt>
 File: ni9264.jpg Graphic file (type jpg)
 <use ni9264.jpg>
-Package pdftex.def Info: ni9264.jpg  used on input line 270.
+Package pdftex.def Info: ni9264.jpg  used on input line 273.
 (pdftex.def)             Requested size: 76.82495pt x 68.28568pt.
 <ni9401.jpg, id=99, 401.5pt x 292.09125pt>
 File: ni9401.jpg Graphic file (type jpg)
 <use ni9401.jpg>
-Package pdftex.def Info: ni9401.jpg  used on input line 271.
+Package pdftex.def Info: ni9401.jpg  used on input line 274.
 (pdftex.def)             Requested size: 108.1185pt x 68.28488pt.
 <ni9403.jpg, id=100, 198.7425pt x 255.95625pt>
 File: ni9403.jpg Graphic file (type jpg)
 <use ni9403.jpg>
-Package pdftex.def Info: ni9403.jpg  used on input line 272.
+Package pdftex.def Info: ni9403.jpg  used on input line 275.
 (pdftex.def)             Requested size: 68.28723pt x 68.28502pt.
 <ni9205_pcb.PNG, id=101, 980.16188pt x 539.01375pt>
 File: ni9205_pcb.PNG Graphic file (type png)
 <use ni9205_pcb.PNG>
-Package pdftex.def Info: ni9205_pcb.PNG  used on input line 282.
+Package pdftex.def Info: ni9205_pcb.PNG  used on input line 286.
 (pdftex.def)             Requested size: 142.26192pt x 79.66422pt.
 <ni9205panel.PNG, id=102, 603.0028pt x 337.26pt>
 File: ni9205panel.PNG Graphic file (type png)
 <use ni9205panel.PNG>
-Package pdftex.def Info: ni9205panel.PNG  used on input line 284.
+Package pdftex.def Info: ni9205panel.PNG  used on input line 288.
 (pdftex.def)             Requested size: 142.25774pt x 79.6678pt.
 <ni9205_3d.PNG, id=103, 903.375pt x 507.39563pt>
 File: ni9205_3d.PNG Graphic file (type png)
 <use ni9205_3d.PNG>
-Package pdftex.def Info: ni9205_3d.PNG  used on input line 286.
+Package pdftex.def Info: ni9205_3d.PNG  used on input line 290.
 (pdftex.def)             Requested size: 213.3959pt x 105.27101pt.
  [15 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
 PNG> <./ni9205panel.PNG> <./ni9205_3d.PNG>]
@@ -395,56 +398,52 @@ Missing character: There is no Œ in font cmr12!
 <full-mesh.PNG, id=110, 1018.55531pt x 650.43pt>
 File: full-mesh.PNG Graphic file (type png)
 <use full-mesh.PNG>
-Package pdftex.def Info: full-mesh.PNG  used on input line 297.
+Package pdftex.def Info: full-mesh.PNG  used on input line 301.
 (pdftex.def)             Requested size: 407.4149pt x 260.16739pt.
 
-Overfull \hbox (17.4149pt too wide) in paragraph at lines 297--298
+Overfull \hbox (17.4149pt too wide) in paragraph at lines 301--302
  [][] 
  []
 
 <full-beam-line-half.PNG, id=111, 1305.37688pt x 529.98pt>
 File: full-beam-line-half.PNG Graphic file (type png)
 <use full-beam-line-half.PNG>
-Package pdftex.def Info: full-beam-line-half.PNG  used on input line 308.
+Package pdftex.def Info: full-beam-line-half.PNG  used on input line 312.
 (pdftex.def)             Requested size: 341.42166pt x 113.806pt.
 <full-comsol.PNG, id=112, 892.08281pt x 642.14906pt>
 File: full-comsol.PNG Graphic file (type png)
 <use full-comsol.PNG>
-Package pdftex.def Info: full-comsol.PNG  used on input line 310.
+Package pdftex.def Info: full-comsol.PNG  used on input line 314.
 (pdftex.def)             Requested size: 341.43155pt x 170.71739pt.
 [16 <./full-mesh.PNG>]
-Overfull \hbox (17.54669pt too wide) in paragraph at lines 315--316
-\OT1/cmr/m/n/12 upon com-ple-tion[https://research.cs.wisc.edu/htcondor/descrip
-tion.html]. linux
+Overfull \hbox (20.15778pt too wide) in paragraph at lines 319--320
+\OT1/cmr/m/n/12 upon com-ple-tion(https://research.cs.wisc.edu/htcondor/descrip
+tion.html). linux
  []
 
 [17 <./full-beam-line-half.PNG> <./full-comsol.PNG>]
 <lxplus.png, id=122, 1371.1225pt x 770.88pt>
 File: lxplus.png Graphic file (type png)
 <use lxplus.png>
-Package pdftex.def Info: lxplus.png  used on input line 319.
+Package pdftex.def Info: lxplus.png  used on input line 323.
 (pdftex.def)             Requested size: 356.48344pt x 200.42407pt.
  [18 <./lxplus.png>]
-[19] [20] (./summary.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[19] [20] (./summary.aux) ) 
 Here is how much of TeX's memory you used:
- 1679 strings out of 494853
- 25013 string characters out of 6178458
- 74819 words of memory out of 5000000
- 4966 multiletter control sequences out of 15000+600000
+ 1682 strings out of 494853
+ 25040 string characters out of 6178458
+ 74859 words of memory out of 5000000
+ 4969 multiletter control sequences out of 15000+600000
  8843 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,6n,25p,1771b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on summary.pdf (21 pages, 18801659 bytes).
+ 41i,6n,25p,1784b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on summary.pdf (21 pages, 18802046 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
