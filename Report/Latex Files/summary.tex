@@ -1,4 +1,5 @@
 \documentclass[12pt,a4paper]{article}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \begin{document}
 \begin{titlepage}
@@ -7,7 +8,7 @@
 \includegraphics[width=0.15\textwidth]{Alpha}	
 	
 	\par\vspace{1cm}
-	{\scshape\LARGE CERN Summer Program Report 2019 \par}
+	{\scshape\LARGE CERN Summer Program Report 2019\footnote{You can find all of the documents of my projetc on CERN repository in my Github page: \url{https://github.com/alifele/My_Poroject_at_CERN}} \par}
 	\vspace{1cm}
 	
 	\vspace{1.5cm}
@@ -17,14 +18,13 @@
 	Author:
 	\end{Large} \par
 	{\Large\itshape Ali Fele Paranj \par}
-	\vfill
+	\vspace{30mm}
 	supervised by\par
 	Dr.Muhammed Sameed
-
 	\vfill
-
 % Bottom of the page
 	{\large \today\par}
+
 \end{titlepage}
 
 
@@ -37,7 +37,7 @@
 
 \section{How ALPHA Works}
 
-ALPHA is an international collaboration based at CERN, which is working with trapped antihydrogen atoms, the antimatter counterpart of the simplest atom, hydrogen. By precise comparisons of hydrogen and antihydrogen, the experiment hopes to study fundamental symmetries between matter and antimatter. 
+ALPHA is an international  collaboration based at CERN, which is working with trapped antihydrogen atoms, the antimatter counterpart of the simplest atom, hydrogen. By precise comparisons of hydrogen and antihydrogen, the experiment hopes to study fundamental symmetries between matter and antimatter. 
 
 \begin{figure}[h]
 
@@ -106,17 +106,17 @@ As for positron, antiproton and electron plasmas: a Penning trap will certainly 
 \end{figure}
 
 \subsection{COMSOL Simulation}
-When the particles are released from positron source, they get traped at the potential well of the accumulator. Then they release from the trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particle beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease. Buncher can be used to bunch the beam. The buncher used for this purpose is a set of electrodes that their potential are changed as a sinusiodal function in time.
-But how do this can bunch the beam?. The answer is that when particels are released from accumulator, the fast particles will be in the head, and the slow particles will be at the tail of the beam. So if we can tune the frequency and phase of voltage on buncher, the we can have antiresonance phenomena. so the particels that have the higher speed will feel the repultion, and the particles with lower speed which will arrive later to buncher, will feel the attraction.  So by using this trick we will be able to bunch the particles.
+When the particles are released from positron source, they get trapped at the potential well of the accumulator. Then they release from the trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particle beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease. Buncher can be used to bunch the beam. The buncher used for this purpose is a set of electrodes that their potential are changed as a sinusoidal function in time.
+But how do this can bunch the beam?. The answer is that when particles are released from the accumulator, the fast particles will be in the head, and the slow particles will be at the tail of the beam. So if we can tune the frequency and phase of voltage on buncher, then we can have antiresonance phenomena. so the particles that have the higher speed will feel the repulsion, and the particles with the lower speed which will arrive later to buncher will feel the attraction.  So by using this trick we will be able to bunch the particles.
 
 
-In this project, First, we decided to see expansion of beam with simulation. So I set up a simulation with COMSOL, using "charged particles tracer" module, and after running the simulation and getting the results, we could see that the standard deviation of the Z component of the position of particles increases as they travel toward penning trap. because the real beamline was very long (11meters), and the limitation of computational resources, I set the simulation in three steps: Short beamline, Long beamline, Real beamline. in all of the simulations in this section, I have connected the buncher to the ground which has zero electric potential. Because in the first step we were interested in seeing the shape of the beam without bunching them. Also, the electric potential on the electrodes of the accumulator was  same as the real values used in the experiment. you can see the electric potential calculated by simulation on the central axis of the beamline cylinder in the figure \ref{potential}.
+In this project, First, we decided to see the expansion of the beam with simulation. So I set up a simulation with COMSOL, using "charged particles tracer" module, and after running the simulation and getting the results, we could see that the standard deviation of the Z component of the position of particles increases as they travel toward penning trap. because the real beamline was very long (11meters), and the limitation of computational resources, I set the simulation in three steps: Short beamline, Long beamline, Real beamline. in all of the simulations in this section, I have connected the buncher to the ground which has zero electric potential. Because in the first step we were interested in seeing the shape of the beam without bunching them. Also, the electric potential on the electrodes of the accumulator was same as the real values used in the experiment. you can see the electric potential calculated by simulation on the central axis of the beamline cylinder in the figure \ref{potential}.
 
 \begin{figure}[h]
 
 \centering
 \includegraphics[width=110mm, height=30mm]{potential}
-\includegraphics[width=110mm, height=40mm]{potential-3D}
+\includegraphics[width=80mm, height=40mm]{potential-3D}
 \caption{Electric Potential in the Central axis of the beamline cylinder}
 \label{potential}
 \end{figure}
@@ -124,9 +124,7 @@ In this project, First, we decided to see expansion of beam with simulation. So 
 \subsubsection{Short Beamline}
 In this simulation, I set the length of the beamline to be about 3 meters which only covers the accumulator and buncher. The electric potential on the electrodes of the accumulator is the same as the real values used in the experiment, but for simplicity, I have connected the buncher to the ground in order to have zero electrical potential on it. I was interested in evaluating the beam shape when they leave the buncher.
 
-The results were quite wired. Because although we could see the expansion because of the particle-particle interaction and space charge, the results were showing a strange decrease in the standard deviation of the z position of the particles. and the depth of the well in the std plot was getting significant as the number of particles was increasing. You can find these results in the figure \ref{short}. Because of this unexpected result, I decided to run more simulations with longer beamlines.
-
-
+The results were quite strange. Because although we could see the expansion because of the particle-particle interaction and space charge, the results were showing a strange decrease in the standard deviation of the z position of the particles. and the depth of the well in the std plot was getting significant as the number of particles was increasing. You can find these results in figure \ref{short}. Because of this unexpected result, I decided to run more simulations with longer beamlines.
 
 \begin{figure}[h!]
 \centering
@@ -141,7 +139,7 @@ In this part of the simulation, I increased the length of the beamline. the size
 
 The significant result of this change was a decrease in the depth of the well at the std(z), and the more significant result was the time of simulation that increased from 18 hours to 31 hours. It was because of enlarging the simulation domain.
 
- finally, we noticed that the well was because of the surface that was closing the end of the beamline. Because as the particles were reaching there, they were sticking to the surface (this was because of the option that I set in preparing the simulation), so they couldn't go further away. This was resulting in a decrease in the standard deviation of the z position of particles. if this guess was true, we should see less decrease in the std on simulations with more longer beam line.
+ finally, we noticed that the well was because of the surface that was closing the end of the beamline. Because as the particles were reaching there, they were sticking to the surface (this was because of the option that I set in preparing the simulation), so they couldn't go further away. This was resulting in a decrease in the standard deviation of the z position of particles. if this guess was true, we should see less decrease in the std on simulations with more longer beamline.
  
 \begin{figure}[h]
 \centering
@@ -153,7 +151,7 @@ The significant result of this change was a decrease in the depth of the well at
 \newpage
  
 \subsubsection{Real Beamline}
-this simulatio was very computationaly costly, which took about 23 hours to simulate just five particles. The reults was as we expected. There was no decrease in std(z) of particles. So this simulation was colser to the real setup than perivious ones. So I tryed to simulate the more particles in this setup.
+this simulation was computationally costly, which took about 23 hours to simulate just five particles. The results were as we expected. There was no decrease in std(z) of particles. So this simulation was closer to the real setup than previous ones. 
 
 \begin{figure}[h]
 \centering
@@ -163,15 +161,13 @@ this simulatio was very computationaly costly, which took about 23 hours to simu
 \end{figure}
 
 \subsubsection{Buncher Simulation}
-As I mentioned earlier, the beam of positrons expand as they travel toward penning trap and this expansion can be supressed using buncher. We need
+As I mentioned earlier, the beam of positrons expand as they travel toward penning trap and this expansion can be suppressed using buncher. These are the results of simulation with sine potential on buncher. The sampling rate of the sine wave was 3 times the frequency of the sine function.  Although it was higher than the Nyquist frequency, we needed a higher sampling rate. I made this possible in section \ref{clus}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=110mm, height=40mm]{potential_buncher}
 \caption{Electric Potential in the centeral axis of beam line. In this simulation buncher has $ V = 10 sin(2 \pi f t) $ potential in which $ f=10 MHz $}
 \end{figure}
-
-And the result of the effect of the sine potential of particles is figure.
 
 \begin{figure}[h]
 \centering
@@ -187,8 +183,8 @@ And the result of the effect of the sine potential of particles is figure.
 
 \subsection{LabVIEW Interface}
 
-Advanced and complicated Experiments like most of the experimenst at cern, are impossible to do without using the advanced electronics for both collecting and analyzing data and controling the experiment apparatus. For these advanced experinents there are tons of parameters to be controled, which are done in the control room (figure \ref{control}). 
-So having a safe and graphical interface for this purpose has a key rule. In this project I designed a graphical interface to control the positron source. 
+Advanced and complicated Experiments like most of the experiments at CERN are impossible to do without using advanced electronics for both collecting and analyzing data and controlling the experiment apparatus. For these advanced experiments, there are tons of parameters to be controlled, which is done in the control room (figure \ref{control}). 
+So having a safe and graphical interface for this purpose has a key rule. In this project, I designed a graphical interface to control the positron source
 
 \begin{figure}[h]
 \centering
@@ -218,7 +214,7 @@ Positrons implanted into solid material typically have a lifetime less than one 
 
 \subsubsection{Experiment Control}
 
-The computers that controls the different parameters of experiment are located on the control platforms (figure \ref{platform}). 
+The computers that control the different parameters of the experiment are located on the control platforms (figure \ref{platform}).  
 
 
 \begin{figure}[h]
@@ -229,7 +225,7 @@ The computers that controls the different parameters of experiment are located o
 \label{platform}
 \end{figure}		
 	
-All of this computers has special cards installed on their motherboards ( for example NI PCI-6229 for analog inputs, NI PCI-6713 for analof outputs, NI PCI-8431 for RS 485 communications, NI PCI-8430 for RS 232 communication and many other cards). The user can control the experiment throught these cards. The analog and digital signals which indicates the state of individual parts on experiment setup, are collected by the input gates. Then after being evaluated in control room, proper signal is sent by output gates to the experiment components (like vaccum pumps, valves, current of magnets, electric potential on electrodes, etc).
+All of this computers have special cards installed on their motherboards ( for example NI PCI-6229 for analog inputs, NI PCI-6713 for analog outputs, NI PCI-8431 for RS 485 communications, NI PCI-8430 for RS 232 communication and many other cards). The user can control the experiment through these cards. The analog and digital signals which indicate the state of individual parts on experiment setup are collected by the input gates. Then after being evaluated in the control room, a proper signal will be sent by output gates to the experiment components (like vacuum pumps, valves, current of magnets, the electric potential on electrodes, etc).
 
 \begin{figure}[h]
 \centering
@@ -242,7 +238,7 @@ All of this computers has special cards installed on their motherboards ( for ex
 
 The Virtual Interface of VI that I have designed will contorl the valves, magnets, and vacuum pumps that are connected to the positron source and accumulator. You can see the front panel or the GUI of VI in figure \ref{VI}. 
 
-The block diagram that controls this VI consists of three different sub VIs. I have desinged  block diagram to be modular, so my supervisor can add other control and options after my departure. each of these sub VIs is for Valves, Vacuum pumps and Pass Camera section. These VIs must be fed by a number that indicates the state of valve or vacuum pump to be On or Off, and by a string that the Icon of the elents in GUI are in it. The sub VI will browse the proper Icon considering the numeric input and will send the picture as Output. all of this elements are in a event structure to reduce the amount of cpu occupation. the reduction of CPU use is because the while loop containing the event structure will run for 1 time, just when you change the values of the each event structure.
+The block diagram that controls this VI consists of three different sub-VIs. I have designed  block diagram to be modular, so my supervisor can add other control and options after my departure. each of these sub-VIs is for Valves, Vacuum pumps and Pass Camera section. These VIs must be fed by a number that indicates the state of a valve or vacuum pump to be On or Off, and by a string that the Icon of the elements in GUI is in it. The sub VI will browse the proper Icon considering the numeric input and will send the picture as Output. all of these elements are in an event structure to reduce the amount of CPU occupation. the reduction of CPU use is because the while loop containing the event structure will run for 1 time, just when you change the values of each event structure.
 
 \begin{figure}[h]
 \centering
@@ -254,7 +250,7 @@ The block diagram that controls this VI consists of three different sub VIs. I h
 \end{figure}
 
 \subsection{Compact Rio Upgrade}
-As mentioned bofore, handling advanced experimnets requires advanced electronics. As time passes, the electronics and computers get more powerful. So one of the most important 'Must do's for every experiment is upgrading the electronics to the last technologies. ALPHA was born at 2005 and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal control and data aquistion purposes. In more details, CompactRIO (or cRIO) is a real-time embedded industrial controller made by National Instruments for industrial control systems. The CompactRIO is a combination of a real-time controller, reconfigurable IO Modules (RIO), FPGA module and an Ethernet expansion chassis.(figure \ref{crio}). In these computers we use DAQ modules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. for this purpose we need to design a printed circuit board (PCB), that maps every pin on D-subminature connector to individual lemo connectors.
+As mentioned before, handling advanced experiments requires advanced electronics. As time passes, the electronics and computers get more powerful. So one of the most important 'Must do's for every experiment is upgrading the electronics to the last technologies. ALPHA was born in 2005 and since that day many updates had been done on setup and computers. A part of the new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimental control and data acquisition purposes. In more details, CompactRIO (or cRIO) is a real-time embedded industrial controller made by National Instruments for industrial control systems. The CompactRIO is a combination of a real-time controller, reconfigurable IO Modules (RIO), FPGA module and an Ethernet expansion chassis.(figure \ref{crio}). In these computers, we use DAQ modules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the modules that we use with these computers, we need to separate the data lines in order to use them individually. for this purpose, we need to design a printed circuit board (PCB), that maps every pin on D-subminiature connector to individual Lemo connectors.
 
 \begin{figure}[h]
 \centering
@@ -264,8 +260,8 @@ As mentioned bofore, handling advanced experimnets requires advanced electronics
 \end{figure}
 
 \subsubsection{PCB and Front Panel Design}
-In this project I designed PCBs using "Altium design' software. this PCBs connect the D-subminator connector to individual Lemo Connectors. Throughout this report I will call these PCBs "Data Line Seperator" or DLS. We had four different types of madules, so I needed to design four differnet PCBs.
-The modules were NI9264, NI9401, NI9403, NI9205 (see figure \ref{module}). these madules are digital and analog madules that are connected to compact rio system to control the experiment aparues. For example one can control valvs, vacuum pumps, mass flow rate controlers, etc. These are done by using LabVIEW interface which I worked with and designed an interface in other project that  I will descripe later. You can find mentioned modules in figure \ref{module}
+In this project, I designed PCBs using "Altium design' software. this PCBs connect the D-subminiature connector to individual Lemo Connectors. Throughout this report, I will call these PCBs "Data Line Separator" or DLS. We had four different types of modules, so I needed to design four different PCBs.
+The modules were NI9264, NI9401, NI9403, NI9205 (see figure \ref{module}). these modules are digital and analog modules that are connected to a compact Rio system to control the experiment apparatus. For example, one can control valves, vacuum pumps, mass flow rate controllers, etc. These are done by using the LabVIEW interface which I worked with and designed an interface in other projects that  I will describe later. You can find mentioned modules in figure \ref{module}
 
 \begin{figure}
 \centering
@@ -277,8 +273,8 @@ The modules were NI9264, NI9401, NI9403, NI9205 (see figure \ref{module}). these
 \label{module}
 \end{figure}
 
-As I said before, for complicated experiments there is a control platform that contols the parameters of experiment. For example figure ??? is the control platform of APLHA experiment.
-These platforms are where that the Compact Rio will sit at. Each compact rio will be held at chassis and these chassises will be held horizontaly on top of each other by [sotoon]. so to keep every thing not messy, we need to design fron panels that can mount on chassies, and srew the PCBs to them. I did so for each of the modules and you can see the front panel of the NI9205 module in figure \ref{NI}. You can find full documents at my github repository for cern as well.
+As I said before, for complicated experiments there is a control platform that controls the parameters of the experiment. 
+These platforms are where the Compact Rio will sit at. Each compact Rio will be held at chassis and these chassis will be held horizontally on top of each other. so to keep everything clean, we need to design front panels that can mount on chassis, and screw the PCBs to them. I did so for each of the modules and you can see the front panel of the NI9205 module in figure \ref{NI}. You can find full documents at my GitHub repository for CERN as well.
 
 
 \begin{figure}[h]
@@ -294,7 +290,8 @@ height=37mm]{ni9205_3d}
 
 
 \subsection{Full Simulation}
-‌Simple simulations are very useful when you want to evaluate your stimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve you simulated model and add more details to it. In the simple simualtion of buncher we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beam line.
+\label{clus}
+‌Simple simulations are very useful when you want to evaluate your estimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve your simulated model and add more details to it. In the simple simulation of buncher, we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beamline.
 
 \begin{figure}[h]
 \centering
@@ -303,7 +300,7 @@ height=37mm]{ni9205_3d}
 \end{figure}
 
 \subsubsection{Geometry}
-To make it possible, we needed to make a 3D model of all of the magents used in experiment. The data of magnets was in a file with .cond type which was designed to feed the data to the OPERA software to calculate the magnetic field. After finding the meaning of those numbers on .cond file with the help of my supervisor ,First I wrote a python code to transfer those data to a more clear data set of magnets. Then I used the Inventor software to design all of the 82 magnets that was contributing in the magnetic field of beamline. Then I added the Inventor model of buncher and Accumulator(that was previuosly created by ALPHA group) to the magnets setup.
+To make it possible, we needed to make a 3D model of all of the magnets used in the experiment. The data of magnets was in a file with .cond type which was designed to feed the data to the OPERA software to calculate the magnetic field. After finding the meaning of those numbers on .cond file with the help of my supervisor, First I wrote a python code to transfer those data to a more clear data set of magnets. Then I used the Inventor software to design all of the 82 magnets that were contributing in the magnetic field of the beamline. Then I added the Inventor model of buncher and Accumulator(that was previously created by ALPHA group) to the magnets setup.
 
 \begin{figure}[h]
 \centering
@@ -316,7 +313,7 @@ height=40mm]{full-beam-line-half}
 \end{figure}
 
 \subsubsection{Running Simulation on HTCondor Provided by LXPLUS Linux Cluster}
-Althogh I was using two computers in parallel to generate the results faster, Since Simulating the full setup was very computational expensive, So it impossible to simulate the whole setup with even 32 GB of RAM. The time of simulation was very long as well, so we needed to run our simulation on HTCondor. HTCondor  stands for High Throughput Computing and is a specialized workload management system for compute-intensive jobs. Like other full-featured batch systems, HTCondor provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion(https://research.cs.wisc.edu/htcondor/description.html). linux clusters of cern provides the HTCondor and you can access big memory nodes and higher number of cpu cores. But since I was here at cern for 53 days, it was impossible to run all of the simulations on clusters and get results. So in this part of my project I created the full simulation file with the real initial values used in apparatues .since I was familiar with Linux I could set up the environement and submit some sample simulations (see figure \ref{cluster}) and my supervisor will run the simulation on cluster after my departure. This simulation contains a parametric sweep to search the optimum values for "amplitude", "Frequency" and "phase" of the the sine potential that is applied on the buncher. The real quantitive results will be generated with this simulation and it will help us to tune the paramters of buncher on order to bunch the positron beam.
+Although I was using two computers in parallel to generate the results faster, simulating the full setup was computationally expensive, So it was impossible to simulate the whole setup with even 32 GB of RAM. The time of simulation was very long as well, so we needed to run our simulation on HTCondor. HTCondor stands for High Throughput Computing and is a specialized workload management system for compute-intensive jobs. Like other full-featured batch systems, HTCondor provides a job queueing mechanism, scheduling policy, priority scheme, resource monitoring, and resource management. Users submit their serial or parallel jobs to HTCondor, HTCondor places them into a queue, chooses when and where to run the jobs based upon a policy, carefully monitors their progress, and ultimately informs the user upon completion(https://research.cs.wisc.edu/htcondor/description.html). Linux clusters of CERN provides the HTCondor and you can access big memory nodes and a higher number of CPU cores. But since I was here at CERN for 53 days, it was impossible to run all of the simulations on clusters and get results. So in this part of my project I created the full simulation file with the real initial values used in apparatus .since I was familiar with Linux I could set up the environment and submit some sample simulations (see figure \ref{cluster}) and my supervisor will run the simulation on cluster after my departure. This simulation contains a parametric sweep to search the optimum values for "amplitude", "Frequency" and "phase" of the sine potential that is applied on the buncher. The real quantitive results will be generated with this simulation and it will help us to tune the parameters of buncher in order to bunch the positron beam.
 
 \begin{figure}[h!]
 \centering
@@ -327,7 +324,7 @@ Althogh I was using two computers in parallel to generate the results faster, Si
 
 
 \section{Lectures, Workshops and Visits}
-During my stay at cern I attended almost all of the Lectures. This lecture series was one of the best ones I attended during my life. The content of lectures was very interesting, the presentation of the lecturers was excellent and the lectures was very up to date. Here is the list of lectures that I attended and the "Physics and Medical Applications" I think was the best among them, and it was the most relevant subject to my field of studies.
+During my stay at CERN, I attended almost all of the Lectures. This lecture series was one of the best ones I attended during my life. The content of the lectures was very interesting, the presentation of the lecturers was excellent and the lectures were very up to date. Here is the list of lectures that I attended and the "Physics and Medical Applications" I think was the best among them, and it was the most relevant subject to my field of studies.
 \subsection{Classroom Courses}
 
 \begin{enumerate}

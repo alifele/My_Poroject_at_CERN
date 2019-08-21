@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{How ALPHA Works}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Magnets}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Detectors}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Penning Trap}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{My Projects}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{COMSOL Simulation}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Short Beamline}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Long Beamline}{subsection.2.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Real Beamline}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Buncher Simulation}{subsection.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.2}{LabVIEW Interface}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Positron Source}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Experiment Control}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Virtual Instrument}{subsection.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Compact Rio Upgrade}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.1}{PCB and Front Panel Design}{subsection.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.4}{Full Simulation}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Geometry}{subsection.2.4}% 18
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Running Simulation on HTCondor Provided by LXPLUS Linux Cluster}{subsection.2.4}% 19
+\BOOKMARK [1][-]{section.3}{Lectures, Workshops and Visits}{}% 20
+\BOOKMARK [2][-]{subsection.3.1}{Classroom Courses}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.2}{Online Courses}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.3}{Workshops and Visits}{section.3}% 23
