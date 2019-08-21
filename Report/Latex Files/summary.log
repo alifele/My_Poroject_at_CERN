@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  21 AUG 2019 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.17)  21 AUG 2019 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,100 +335,95 @@ control_platform.jpg>]
 File: Block-Diagram.PNG Graphic file (type png)
 <use Block-Diagram.PNG>
 Package pdftex.def Info: Block-Diagram.PNG  used on input line 247.
-(pdftex.def)             Requested size: 102.76492pt x 49.53796pt.
-<SubVI.PNG, id=87, 371.88937pt x 220.57407pt>
-File: SubVI.PNG Graphic file (type png)
-<use SubVI.PNG>
-Package pdftex.def Info: SubVI.PNG  used on input line 248.
-(pdftex.def)             Requested size: 185.94423pt x 110.28676pt.
-<InterFace.PNG, id=88, 1382.16376pt x 928.21782pt>
+(pdftex.def)             Requested size: 297.9932pt x 143.648pt.
+<InterFace.PNG, id=87, 1382.16376pt x 928.21782pt>
 File: InterFace.PNG Graphic file (type png)
 <use InterFace.PNG>
 Package pdftex.def Info: InterFace.PNG  used on input line 249.
-(pdftex.def)             Requested size: 345.54008pt x 232.05388pt.
- [13 <./Block-Diagram.PNG> <./SubVI.PNG> <./InterFace.PNG>]
-<crio.jpg, id=95, 4175.6pt x 3131.7pt>
+(pdftex.def)             Requested size: 304.07697pt x 204.20854pt.
+ [13 <./Block-Diagram.PNG> <./InterFace.PNG>]
+<crio.jpg, id=93, 4175.6pt x 3131.7pt>
 File: crio.jpg Graphic file (type jpg)
 <use crio.jpg>
-Package pdftex.def Info: crio.jpg  used on input line 257.
+Package pdftex.def Info: crio.jpg  used on input line 258.
 (pdftex.def)             Requested size: 298.69331pt x 170.691pt.
 
 
-LaTeX Warning: Reference `mod' on page 14 undefined on input line 264.
+LaTeX Warning: Reference `mod' on page 14 undefined on input line 265.
 
 [14 <./crio.jpg>]
-<ni9205.jpg, id=99, 128.73094pt x 191.21437pt>
+<ni9205.jpg, id=97, 128.73094pt x 191.21437pt>
 File: ni9205.jpg Graphic file (type jpg)
 <use ni9205.jpg>
-Package pdftex.def Info: ni9205.jpg  used on input line 268.
-(pdftex.def)             Requested size: 76.82468pt x 105.27617pt.
-<ni9264.jpg, id=100, 177.66376pt x 191.21437pt>
+Package pdftex.def Info: ni9205.jpg  used on input line 269.
+(pdftex.def)             Requested size: 76.82468pt x 68.28568pt.
+<ni9264.jpg, id=98, 177.66376pt x 191.21437pt>
 File: ni9264.jpg Graphic file (type jpg)
 <use ni9264.jpg>
-Package pdftex.def Info: ni9264.jpg  used on input line 269.
-(pdftex.def)             Requested size: 76.82495pt x 105.27617pt.
-<ni9401.jpg, id=101, 401.5pt x 292.09125pt>
+Package pdftex.def Info: ni9264.jpg  used on input line 270.
+(pdftex.def)             Requested size: 76.82495pt x 68.28568pt.
+<ni9401.jpg, id=99, 401.5pt x 292.09125pt>
 File: ni9401.jpg Graphic file (type jpg)
 <use ni9401.jpg>
-Package pdftex.def Info: ni9401.jpg  used on input line 270.
-(pdftex.def)             Requested size: 108.1185pt x 105.27309pt.
-<ni9403.jpg, id=102, 198.7425pt x 255.95625pt>
+Package pdftex.def Info: ni9401.jpg  used on input line 271.
+(pdftex.def)             Requested size: 108.1185pt x 68.28488pt.
+<ni9403.jpg, id=100, 198.7425pt x 255.95625pt>
 File: ni9403.jpg Graphic file (type jpg)
 <use ni9403.jpg>
-Package pdftex.def Info: ni9403.jpg  used on input line 271.
-(pdftex.def)             Requested size: 68.28723pt x 105.2747pt.
-<ni9205_pcb.PNG, id=103, 980.16188pt x 539.01375pt>
+Package pdftex.def Info: ni9403.jpg  used on input line 272.
+(pdftex.def)             Requested size: 68.28723pt x 68.28502pt.
+<ni9205_pcb.PNG, id=101, 980.16188pt x 539.01375pt>
 File: ni9205_pcb.PNG Graphic file (type png)
 <use ni9205_pcb.PNG>
-Package pdftex.def Info: ni9205_pcb.PNG  used on input line 281.
+Package pdftex.def Info: ni9205_pcb.PNG  used on input line 282.
 (pdftex.def)             Requested size: 142.26192pt x 79.66422pt.
-<ni9205panel.PNG, id=104, 603.0028pt x 337.26pt>
+<ni9205panel.PNG, id=102, 603.0028pt x 337.26pt>
 File: ni9205panel.PNG Graphic file (type png)
 <use ni9205panel.PNG>
-Package pdftex.def Info: ni9205panel.PNG  used on input line 283.
+Package pdftex.def Info: ni9205panel.PNG  used on input line 284.
 (pdftex.def)             Requested size: 142.25774pt x 79.6678pt.
-<ni9205_3d.PNG, id=105, 903.375pt x 507.39563pt>
+<ni9205_3d.PNG, id=103, 903.375pt x 507.39563pt>
 File: ni9205_3d.PNG Graphic file (type png)
 <use ni9205_3d.PNG>
-Package pdftex.def Info: ni9205_3d.PNG  used on input line 285.
-(pdftex.def)             Requested size: 227.62138pt x 113.81068pt.
+Package pdftex.def Info: ni9205_3d.PNG  used on input line 286.
+(pdftex.def)             Requested size: 213.3959pt x 105.27101pt.
+ [15 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
+PNG> <./ni9205panel.PNG> <./ni9205_3d.PNG>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no Œ in font cmr12!
- [15 <./ni9205.jpg> <./ni9264.jpg> <./ni9401.jpg> <./ni9403.jpg> <./ni9205_pcb.
-PNG> <./ni9205panel.PNG> <./ni9205_3d.PNG>]
-<full-mesh.PNG, id=112, 1018.55531pt x 650.43pt>
+<full-mesh.PNG, id=110, 1018.55531pt x 650.43pt>
 File: full-mesh.PNG Graphic file (type png)
 <use full-mesh.PNG>
-Package pdftex.def Info: full-mesh.PNG  used on input line 296.
+Package pdftex.def Info: full-mesh.PNG  used on input line 297.
 (pdftex.def)             Requested size: 407.4149pt x 260.16739pt.
 
-Overfull \hbox (17.4149pt too wide) in paragraph at lines 296--297
+Overfull \hbox (17.4149pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
-<full-beam-line-half.PNG, id=113, 1305.37688pt x 529.98pt>
+<full-beam-line-half.PNG, id=111, 1305.37688pt x 529.98pt>
 File: full-beam-line-half.PNG Graphic file (type png)
 <use full-beam-line-half.PNG>
-Package pdftex.def Info: full-beam-line-half.PNG  used on input line 307.
+Package pdftex.def Info: full-beam-line-half.PNG  used on input line 308.
 (pdftex.def)             Requested size: 341.42166pt x 113.806pt.
-<full-comsol.PNG, id=114, 892.08281pt x 642.14906pt>
+<full-comsol.PNG, id=112, 892.08281pt x 642.14906pt>
 File: full-comsol.PNG Graphic file (type png)
 <use full-comsol.PNG>
-Package pdftex.def Info: full-comsol.PNG  used on input line 309.
+Package pdftex.def Info: full-comsol.PNG  used on input line 310.
 (pdftex.def)             Requested size: 341.43155pt x 170.71739pt.
 [16 <./full-mesh.PNG>]
-Overfull \hbox (17.54669pt too wide) in paragraph at lines 314--315
+Overfull \hbox (17.54669pt too wide) in paragraph at lines 315--316
 \OT1/cmr/m/n/12 upon com-ple-tion[https://research.cs.wisc.edu/htcondor/descrip
 tion.html]. linux
  []
 
 [17 <./full-beam-line-half.PNG> <./full-comsol.PNG>]
-<lxplus.png, id=124, 1371.1225pt x 770.88pt>
+<lxplus.png, id=122, 1371.1225pt x 770.88pt>
 File: lxplus.png Graphic file (type png)
 <use lxplus.png>
-Package pdftex.def Info: lxplus.png  used on input line 318.
-(pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
+Package pdftex.def Info: lxplus.png  used on input line 319.
+(pdftex.def)             Requested size: 356.48344pt x 200.42407pt.
  [18 <./lxplus.png>]
 [19] [20] (./summary.aux)
 
@@ -436,10 +431,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1684 strings out of 494853
- 25077 string characters out of 6178458
+ 1679 strings out of 494853
+ 25013 string characters out of 6178458
  74819 words of memory out of 5000000
- 4970 multiletter control sequences out of 15000+600000
+ 4966 multiletter control sequences out of 15000+600000
  8843 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,6n,25p,1771b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -449,10 +444,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on summary.pdf (21 pages, 18806798 bytes).
+Output written on summary.pdf (21 pages, 18801659 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

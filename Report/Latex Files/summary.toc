@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Positron Source}{11}
 \contentsline {subsubsection}{\numberline {2.2.2}Experiment Control}{11}
 \contentsline {subsubsection}{\numberline {2.2.3}Virtual Instrument}{12}
-\contentsline {subsection}{\numberline {2.3}Compact Rio Upgrade}{13}
+\contentsline {subsection}{\numberline {2.3}Compact Rio Upgrade}{14}
 \contentsline {subsubsection}{\numberline {2.3.1}PCB and Front Panel Design}{14}
 \contentsline {subsection}{\numberline {2.4}Full Simulation}{16}
 \contentsline {subsubsection}{\numberline {2.4.1}Geometry}{16}
