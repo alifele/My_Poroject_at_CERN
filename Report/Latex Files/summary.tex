@@ -1,20 +1,31 @@
-\documentclass{article}
-\usepackage{blindtext}
+\documentclass[12pt,a4paper]{article}
 \usepackage{graphicx}
-\title{CERN Summer Program Report}
-\author{Ali Fele Paranj}
-
-
 \begin{document}
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{cern}\hspace{50mm}
+\includegraphics[width=0.15\textwidth]{Alpha}	
+	
+	\par\vspace{1cm}
+	{\scshape\LARGE CERN Summer Program Report 2019 \par}
+	\vspace{1cm}
+	
+	\vspace{1.5cm}
+	
+	\vspace{2cm}
+	\begin{Large}
+	Author:
+	\end{Large} \par
+	{\Large\itshape Ali Fele Paranj \par}
+	\vfill
+	supervised by\par
+	Dr.Muhammed Sammed
 
-\maketitle
+	\vfill
 
-\begin{figure}[h]
-
-\includegraphics[scale=0.1]{Alpha}
-\includegraphics[scale=0.1]{cern}
-
-\end{figure}
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
 
 
 
@@ -26,34 +37,36 @@
 
 \section{How ALPHA Works}
 
-ALPHA is an international collaboration based at CERN, and which is working with trapped antihydrogen atoms, the antimatter counterpart of the simplest atom, hydrogen. By precise comparisons of hydrogen and antihydrogen, the experiment hopes to study fundamental symmetries between matter and antimatter. 
+ALPHA is an international collaboration based at CERN, which is working with trapped antihydrogen atoms, the antimatter counterpart of the simplest atom, hydrogen. By precise comparisons of hydrogen and antihydrogen, the experiment hopes to study fundamental symmetries between matter and antimatter. 
 
 \begin{figure}[h]
 
 \includegraphics[width=60mm]{antimatter_factory}
+\hspace{10mm}
 \includegraphics[width=60mm]{alpha_hall}
 
 \caption{Antimatter Factory (left) and ALPHA experiment hall (right)}
 \end{figure}
 
-ALPHA has some important components that make the research on antimatters possible. These are: the Penning trap, which holds the positrons and antiprotons before we use them to make antihydrogen, the Atom trap, which traps and holds the antihydrogen atoms, and the Annihilation vertex imaging detector, which detects the antihydrogen atoms when we allow them to annihilate and can find the point at which they annihilated. You can see the full setup of experiment in figure \ref{fig:full_map} .
+ALPHA has some important components that make the research on antimatters possible. These are: the Penning trap, which holds the positrons and antiprotons before we use them to make antihydrogen, the Atom trap, which traps and holds the antihydrogen atoms, and the Annihilation vertex imaging detector, which detects the antihydrogen atoms when we allow them to annihilate and can find the point at which they annihilated. You can see the full setup of experiment in figure \ref{fig:full_map}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.09]{full_map}
-\caption{Full Setup of ALPHA experiment}
+\caption{Full Setup of ALPHA experiment.}
 \label{fig:full_map}
 \end{figure}
 
-Note: For pictures in these sections I have used pictures used in the web site of ALPHA 
+Note: For pictures in these sections I have used pictures used in the web site of ALPHA.
 \subsection{Magnets}
 \label{Magnets} 
-The ALPHA magnetic trap is a variant of a type of atom trap called an 'Ioffe trap'. This magnetic trap is used to trap antihydrogen atoms which are neutral and electric fields can not be used to trap the particles. Such traps work because most atoms interact with a magnetic field through a property called their magnetic dipole moment. If the atom is moving in a magnetic field, it will gain and lose energy as the strength of the magnetic field near the atom changes. Making a magnetic field that increases in all directions from a central minimum point means that some atoms will gain potential energy and lose kinetic energy if they move away from the minimum. Atoms that have low enough total energy will convert all of their kinetic energy to potential energy and be reflected from the higher magnetic field and be trapped. You can think of this like a marble rolling in a bowl -- a slow-moving marble can't reach the edge of the bowl and will be `trapped' in the bowl.
+The ALPHA magnetic trap is a variant of a type of atom trap called an 'Ioffe trap'. This magnetic trap is used to trap antihydrogen atoms which are neutral, and electric fields can not be used to trap the particles. Such traps work because most atoms interact with a magnetic field through a property called their magnetic dipole moment. If the atom is moving in a magnetic field, it will gain and lose energy as the strength of the magnetic field near the atom changes. Making a magnetic field that increases in all directions from a central minimum point means that some atoms will gain potential energy and lose kinetic energy if they move away from the minimum. Atoms that have low enough total energy will convert all of their kinetic energy to potential energy and be reflected from the higher magnetic field and be trapped. You can think of this like a marble rolling in a bowl -- a slow-moving marble can't reach the edge of the bowl and will be `trapped' in the bowl.
 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.4]{magnets-trap}
+\hspace{15mm}
 \includegraphics[scale=0.52]{magnet}
 \caption{ALPHA Magnetic Trap}
 \end{figure}
@@ -65,6 +78,7 @@ The ALPHA neutral trap is surrounded by a complex particle detector, called the 
 \begin{figure}[h]
 
 \includegraphics[scale=0.4]{detector}
+\hspace{15mm}
 \includegraphics[scale=0.4]{detector-2}
 \caption{Silicon Vertex Detector}
 \end{figure}
@@ -84,27 +98,36 @@ As for positron, antiproton and electron plasmas: a Penning trap will certainly 
 \end{figure}
 
 \section{My Projects}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.3]{Mesh}
+\caption{Accumulator with fine mesh in COMSOL}
+\end{figure}
+
 \subsection{COMSOL Simulation}
-When the particles are released from positron source, they trap at the potential well of the accumulator. Then they release from the trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particles beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease.
+When the particles are released from positron source, they get traped at the potential well of the accumulator. Then they release from the trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particle beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease.
 
 
-First, we decided to see this expansion on simulation. So I set up a simulation with COMSOL, using "charged particles tracer" module, and after running the simulation and getting the results, we could see that the standard deviation of the Z component of the position of particles increases as they travel toward penning trap. because of the long beamline, and the limitation of computational resources I set the simulation in three steps: Short beamline, Long beamline, Real beamline. in all of the simulations in this section, I have connected the buncher to the ground which has zero electric potential. Because in the first step we were interested in seeing the shape of the beam without bunching them. also, the electric potential on the electrodes of the accumulator was the same as are in a real experiment. you can see the electric potential calculated by simulation on the central axis of the beamline cylinder in the figure \ref{potential}
+In this project, First, we decided to see this expansion with simulation. So I set up a simulation with COMSOL, using "charged particles tracer" module, and after running the simulation and getting the results, we could see that the standard deviation of the Z component of the position of particles increases as they travel toward penning trap. because the real beamline was very long (11meters), and the limitation of computational resources, I set the simulation in three steps: Short beamline, Long beamline, Real beamline. in all of the simulations in this section, I have connected the buncher to the ground which has zero electric potential. Because in the first step we were interested in seeing the shape of the beam without bunching them. Also, the electric potential on the electrodes of the accumulator was  same as the real values used in the experiment. you can see the electric potential calculated by simulation on the central axis of the beamline cylinder in the figure \ref{potential}.
 
 \begin{figure}[h]
 
 \centering
-\includegraphics[width=110mm, height=40mm]{potential}
+\includegraphics[width=110mm, height=30mm]{potential}
 \includegraphics[width=110mm, height=40mm]{potential-3D}
 \caption{Electric Potential in the Central axis of the beamline cylinder}
 \label{potential}
 \end{figure}
 
 \subsubsection{Short Beamline}
-In this simulation, I set the length of the beamline to be about 3 meters which only covers the accumulator and buncher. The electric potential on the electrodes of the accumulator was exactly same as the real values used in the experiment, but for simplicity, I connected the buncher to the ground in order to have zero electrical potential on it. I was interested in evaluating the beam shape when they leave the buncher.
+In this simulation, I set the length of the beamline to be about 3 meters which only covers the accumulator and buncher. The electric potential on the electrodes of the accumulator is the same as the real values used in the experiment, but for simplicity, I have connected the buncher to the ground in order to have zero electrical potential on it. I was interested in evaluating the beam shape when they leave the buncher.
 
-The results were quite wired. Because although we could see the expansion because of the particle-particle interaction and space charge, the results were showing a strange decrease at the standard deviation of the z position of the particles. and the depth of the well in the std plot was getting significant as the number of particles was increasing. You can find these results in the figure \ref{short}. So I decided to run more simulations with longer beamlines.
+The results were quite wired. Because although we could see the expansion because of the particle-particle interaction and space charge, the results were showing a strange decrease in the standard deviation of the z position of the particles. and the depth of the well in the std plot was getting significant as the number of particles was increasing. You can find these results in the figure \ref{short}. Because of this unexpected result, I decided to run more simulations with longer beamlines.
 
-\begin{figure}[h]
+
+
+\begin{figure}[h!]
 \centering
 \includegraphics[width=50mm, height=50mm]{sim-in-6000}
 \includegraphics[width=50mm, height=50mm]{sim-std-6000}
@@ -125,6 +148,8 @@ The significant result of this change was a decrease in the depth of the well at
 \includegraphics[width=50mm, height=50mm]{sim-std-100-long}
 \caption{Trajectory and Standard deviation of beam with 6000 Particles in a beam line 6 meters long }
 \end{figure}
+
+\newpage
  
 \subsubsection{Real Beamline}
 this simulatio was very computationaly costly, which took about 23 hours to simulate just five particles. The reults was as we expected. There was no decrease in std(z) of particles. So this simulation was colser to the real setup than perivious ones. So I tryed to simulate the more particles in this setup.
@@ -217,7 +242,12 @@ The Virtual Interface of VI that I have designed will contorl the valves, magnet
 
 The block diagram that controls this VI consists of three different sub VIs. I have desinged  block diagram to be modular and mmy supervisor can add other control and options after my departure. each of these sub VIs is for Valves, Vacuum pumps and pass camra section. These VIs must feed by a number that indicates the state of valve or vacuum pump to be On or Off, and by a string that the Icon of the elents in GUI are in it. The sub VI will brrows the proper Icon considering the numeric input and will send the picture as Output. all of this elements are in a event structure to reduce the amount of cpu uccpation. the reduction of CPU use is because the while loop around the event structure will run for 1 time, just when you changfe the values of the each event structure.
 
-\newpage
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.1]{Block-Diagram}
+\includegraphics[scale=0.5]{SubVI}
+\includegraphics[scale=0.25]{InterFace}
+\end{figure}
 
 \subsection{Compact Rio Upgrade}
 As mentioned bofore, handling advanced experimnets requires advanced electronic setups. As the  time passes the electronics and computers get more powerful. So one of the important 'Must do's for every experiment is upgrading the componets of experiment to the last technologies. ALPHA was born at 2009[????] and since that day many updates had be done on setup and computers. A part of new update is transferring the old computers with DAQ cards to professional Compact Rio computers that are designed mainly for Experimnetal and data aquistion purposes. In more details, CompactRIO (or cRIO) is a real-time embedded industrial controller made by National Instruments for industrial control systems. The CompactRIO is a combination of a real-time controller, reconfigurable IO Modules (RIO), FPGA module and an Ethernet expansion chassis.[Wikipedia of cRio](figure \ref{crio}). In these computers we use DAQ madules instead of DAQ cards. This will make the control platform very compact and of course more professional. In some of the madules that we use with this compueters we need to seperate the data lines in order to use them individualy. for this purpose we need to design a printed circuit board (PCB), that maps every pin on D-subminature connector to individual lemo connectors.
@@ -257,20 +287,27 @@ height=40mm]{ni9205_3d}
 \label{NI}
 \end{figure}
 
-\newpage
 
 \subsection{Full Simulation}
 ‌Simple simulations are very useful when you want to evaluate your stimates using the minimum computation resources. But after finding the rough simulations satisfactory, you need to improve you simulated model and add more details to it. In the simple simualtion of buncher we find out that buncher works pretty well in bunching the expanding beam. So we decided to add more details to our simulation and simulate the full setup of magnets and beam line.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.4]{full-mesh}
+\caption{Full setup with fine mesh and ready for simulation}
+\end{figure}
+
 \subsubsection{Geometry}
 To make it possible, we needed to make a CAD model of magents in full setup. The data of magnets was in a file with .cond type which was designed to feed the data to the OPERA software to calculate the magnetic field. After finding the meaning of those numbers on .cond file with the help of my supervisor ,First I wrote a python code to transfer those data to a more clear data set of magnets[figure of excel]. Then I used the Inventor software to design all of the 82 magnets that contributes in the magnetic field of beam line. Then I added the Inventor model of buncher and Accumulator(that was previuosly created by ALPHA group).
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=120mm, height=60mm]{full-beam-line}
-\\
 
 \includegraphics[width=120mm,
 height=40mm]{full-beam-line-half}
+
+\includegraphics[width=120mm, height=60mm]{full-comsol}
+\caption{First: Side view of magnets in Inventor, Second: Model imported to COMSOL environement }
 \end{figure}
 
 \subsubsection{Running Simulation on HTCondor Provided by LXPLUS Linux Cluster}
