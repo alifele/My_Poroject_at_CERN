@@ -8,7 +8,7 @@
 \includegraphics[width=0.15\textwidth]{Alpha}	
 	
 	\par\vspace{1cm}
-	{\scshape\LARGE CERN Summer Program Report 2019\footnote{You can find all of the documents of my projetc on CERN repository in my Github page: \url{https://github.com/alifele/My_Poroject_at_CERN}} \par}
+	{\scshape\LARGE CERN Summer Program Report 2019\footnote{You can find all of the documents of my projects on CERN repository in my Github page: \url{https://github.com/alifele/My_Poroject_at_CERN}} \par}
 	\vspace{1cm}
 	
 	\vspace{1.5cm}
@@ -20,7 +20,7 @@
 	{\Large\itshape Ali Fele Paranj \par}
 	\vspace{30mm}
 	supervised by\par
-	Dr.Muhammed Sameed
+	Dr. Muhammed Sameed
 	\vfill
 % Bottom of the page
 	{\large \today\par}
@@ -48,7 +48,7 @@ ALPHA is an international  collaboration based at CERN, which is working with tr
 \caption{Antimatter Factory (left) and ALPHA experiment hall (right)}
 \end{figure}
 
-ALPHA has some important components that make the research on antimatters possible. These are: the Penning trap, which holds the positrons and antiprotons before we use them to make antihydrogen, the Atom trap, which traps and holds the antihydrogen atoms, and the Annihilation vertex imaging detector, which detects the antihydrogen atoms when we allow them to annihilate and can find the point at which they annihilated. You can see the full setup of experiment in figure \ref{fig:full_map}.
+ALPHA has some important components that make the research on antimatters possible. These are: the Penning trap, which holds the positrons and antiprotons before we mix them to make antihydrogen, the Atom trap, which traps and holds the antihydrogen atoms, and the Annihilation vertex imaging detector, which detects the antihydrogen atoms when we allow them to annihilate and can find the point at which they annihilated. You can see the full setup of experiment in figure \ref{fig:full_map}.
 
 \begin{figure}[h]
 \centering
@@ -86,7 +86,7 @@ The ALPHA neutral trap is surrounded by a complex particle detector, called the 
 
 \subsection{Penning Trap}
 It is a basic and unavoidable fact in the antimatter business that to produce antihydrogen, antiprotons and positrons must be mixed. So, ALPHA must have the ability to confine and manipulate charged plasmas with reasonable efficiency and at cryogenic temperatures to boot!
-This is accomplished in ALPHA through the use of Penning traps, a type of trap commonly used in plasma physics experiments to confine charged plasmas. The charge is, in fact, the difference, and indeed the dilemma faced when attempting to trap antihydrogen. Because antihydrogen is neutral, it cannot be held in a traditional Penning trap. This is where ALPHA’s unique magnetic trap comes in (see \ref{Magnets}).
+This is accomplished in ALPHA through the use of Penning traps, a type of trap commonly used in plasma physics experiments to confine charged plasmas. The charge is, in fact, the difference, and indeed the dilemma faced when attempting to trap antihydrogen. Because antihydrogen is neutral, it cannot be held in a traditional Penning trap. This is where ALPHA’s unique magnetic trap comes in\footnote{\url{http://alpha.web.cern.ch/positrons}} (see \ref{Magnets}).
 
 As for positron, antiproton and electron plasmas: a Penning trap will certainly do the trick. In a Penning trap, charged plasmas are confined in a superposition of magnetic and electric fields. You can find a great summary of fields used to trap the particles in figure \ref{trap}
 
@@ -106,7 +106,7 @@ As for positron, antiproton and electron plasmas: a Penning trap will certainly 
 \end{figure}
 
 \subsection{COMSOL Simulation}
-When the particles are released from positron source, they get trapped at the potential well of the accumulator. Then they release from the trap to travel toward the pennig trap, which traps the positrons and antiprotons before mixing and making antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particle beam larger. So the efficiency of traping positrons at the limited length of penning trap will decrease. Buncher can be used to bunch the beam. The buncher used for this purpose is a set of electrodes that their potential are changed as a sinusoidal function in time.
+When the particles are released from positron source, they are trapped in a potential well in the positron accumulator. When they are subsequently released, they travel through the magnetic beamline too the Atom Trap where they are trapped and eventually mixed with antiprotons to make antihydrogen.  positrons, on their way to reach the penning trap, expand because of the space charge. This will make the particle beam longer. So the efficiency of trapping positrons at the limited length of penning trap will decrease. because the efficient of trapping positrons is limited by the length of the penning trap. Buncher can be used to bunch the beam. The buncher used for this purpose is a set of electrodes that their potential are changed as a sinusoidal function in time.
 But how do this can bunch the beam?. The answer is that when particles are released from the accumulator, the fast particles will be in the head, and the slow particles will be at the tail of the beam. So if we can tune the frequency and phase of voltage on buncher, then we can have antiresonance phenomena. so the particles that have the higher speed will feel the repulsion, and the particles with the lower speed which will arrive later to buncher will feel the attraction.  So by using this trick we will be able to bunch the particles.
 
 
@@ -184,20 +184,20 @@ As I mentioned earlier, the beam of positrons expand as they travel toward penni
 \subsection{LabVIEW Interface}
 
 Advanced and complicated Experiments like most of the experiments at CERN are impossible to do without using advanced electronics for both collecting and analyzing data and controlling the experiment apparatus. For these advanced experiments, there are tons of parameters to be controlled, which is done in the control room (figure \ref{control}). 
-So having a safe and graphical interface for this purpose has a key rule. In this project, I designed a graphical interface to control the positron source
+So having a safe and graphical interface for this purpose has a key rule. In this project, I designed a graphical interface to control the positron accumulator source.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=60mm, height=60mm]{control_room}
 \includegraphics[width=60mm, height=60mm]{experiment_hall}
-\caption{Control Room and Experiment Hall}
+\caption{Alpha Control Room and Experiment Hall}
 \label{control}
 \end{figure}
 
 
 
 
-\subsubsection{Positron Source}
+\subsubsection{Positron Accumulator}
 
 ALPHA derives its positrons from a radioactive beta-decay source containing an isotope of sodium, Na-22. This isotope, which has a conveniently long half-life of about 2.6 years, emits positrons with a large spread of kinetic energies up to about 545 keV. Such energetic positrons cannot easily be applied for antihydrogen production, so that ALPHA uses a well established technique to produce a low energy (eV) beam of positrons in vacuum.
 
@@ -238,7 +238,7 @@ All of this computers have special cards installed on their motherboards ( for e
 
 The Virtual Interface of VI that I have designed will contorl the valves, magnets, and vacuum pumps that are connected to the positron source and accumulator. You can see the front panel or the GUI of VI in figure \ref{VI}. 
 
-The block diagram that controls this VI consists of three different sub-VIs. I have designed  block diagram to be modular, so my supervisor can add other control and options after my departure. each of these sub-VIs is for Valves, Vacuum pumps and Pass Camera section. These VIs must be fed by a number that indicates the state of a valve or vacuum pump to be On or Off, and by a string that the Icon of the elements in GUI is in it. The sub VI will browse the proper Icon considering the numeric input and will send the picture as Output. all of these elements are in an event structure to reduce the amount of CPU occupation. the reduction of CPU use is because the while loop containing the event structure will run for 1 time, just when you change the values of each event structure.
+The block diagram that controls this VI consists of three different sub-VIs. I have designed  block diagram to be modular, so my supervisor can add other control and options after my departure. each of these sub-VIs is for valves,vacuum pumps and positron stick section. These VIs must be fed by a number that indicates the state of a valve or vacuum pump to be On or Off, and by a string that the Icon of the elements in GUI is in it. The sub VI will browse the proper Icon considering the numeric input and will send the picture as Output. all of these elements are in an event structure to reduce the amount of CPU occupation. the reduction of CPU use is because the while loop containing the event structure will run for 1 time, just when you change the values of each event structure.
 
 \begin{figure}[h]
 \centering
@@ -261,7 +261,7 @@ As mentioned before, handling advanced experiments requires advanced electronics
 
 \subsubsection{PCB and Front Panel Design}
 In this project, I designed PCBs using "Altium design' software. this PCBs connect the D-subminiature connector to individual Lemo Connectors. Throughout this report, I will call these PCBs "Data Line Separator" or DLS. We had four different types of modules, so I needed to design four different PCBs.
-The modules were NI9264, NI9401, NI9403, NI9205 (see figure \ref{module}). these modules are digital and analog modules that are connected to a compact Rio system to control the experiment apparatus. For example, one can control valves, vacuum pumps, mass flow rate controllers, etc. These are done by using the LabVIEW interface which I worked with and designed an interface in other projects that  I will describe later. You can find mentioned modules in figure \ref{module}
+The modules were NI9264, NI9401, NI9403, NI9205 (see figure \ref{module}). these modules are digital and analog modules that are connected to a compact Rio system to control the experiment apparatus. For example, one can control valves, vacuum pumps, mass flow rate controllers, etc. These are done by using the LabVIEW interface which I worked with and designed an interface in other projects that I described earlier. You can find mentioned modules in figure \ref{module}
 
 \begin{figure}
 \centering
